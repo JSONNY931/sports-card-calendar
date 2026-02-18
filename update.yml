@@ -1,0 +1,41 @@
+name: 매일 스포츠카드 발매 일정 업데이트
+
+on:
+  schedule:
+    # 매일 UTC 00:00 (한국 시간 오전 9시)에 실행
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 수동 실행도 가능
+
+jobs:
+  update-releases:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 코드 체크아웃
+      uses: actions/checkout@v3
+      
+    - name: Python 설정
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: 의존성 설치
+      run: |
+        pip install requests beautifulsoup4
+        
+    - name: 발매 데이터 스크래핑
+      run: |
+        python scraper.py
+        
+    - name: 변경사항 커밋
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add releases.json
+        git diff --staged --quiet || git commit -m "자동 업데이트: $(date +'%Y-%m-%d %H:%M:%S')"
+        
+    - name: GitHub에 푸시
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main

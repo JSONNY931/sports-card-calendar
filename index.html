@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스포츠카드 발매 캘린더 - 자동 업데이트</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+        }
+
+        .update-info {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9fa;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .month-nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .month-nav button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        .month-nav button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .current-month {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            min-width: 200px;
+            text-align: center;
+        }
+
+        .sport-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sport-filter {
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .sport-filter:hover {
+            transform: scale(1.05);
+        }
+
+        .sport-filter.active {
+            border: 2px solid #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .calendar {
+            padding: 30px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 15px;
+            width: 100%;
+        }
+
+        .day-header {
+            text-align: center;
+            font-weight: bold;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #495057;
+        }
+
+        .day-cell {
+            min-height: 120px;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 10px;
+            background: white;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .day-cell:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .day-cell.other-month {
+            opacity: 0.3;
+            background: #f8f9fa;
+        }
+
+        .day-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+
+        .day-cell.today .day-number {
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .release-item {
+            margin: 5px 0;
+            padding: 6px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            line-height: 1.3;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: white;
+            font-weight: 500;
+        }
+
+        .release-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* 스포츠별 색상 - 직관적이고 구분하기 쉽게 */
+        .sport-basketball { background: #ff4757; } /* 밝은 빨강 - 농구공 */
+        .sport-baseball { background: #2ed573; } /* 밝은 초록 - 야구장 잔디 */
+        .sport-football { background: #5f27cd; } /* 보라 - 미식축구 */
+        .sport-soccer { background: #00d2d3; } /* 청록 - 축구 */
+        .sport-hockey { background: #1e90ff; } /* 파랑 - 아이스링크 */
+        .sport-racing { background: #ff6348; } /* 주황 - 레이싱 */
+        .sport-wrestling { background: #ffa502; } /* 황금색 - 레슬링 챔피언십 벨트 */
+        .sport-golf { background: #26de81; } /* 연두 - 골프장 */
+        .sport-tennis { background: #fd79a8; } /* 핑크 - 테니스공 */
+        .sport-mma { background: #ea2027; } /* 진한 빨강 - 격투기 */
+        .sport-other { background: #95afc0; } /* 회색 - 기타 */
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-content h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .modal-content p {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .modal-content a {
+            color: #667eea;
+            text-decoration: underline;
+        }
+
+        .close-modal {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .close-modal:hover {
+            background: #764ba2;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .calendar-grid {
+                gap: 8px;
+            }
+            
+            .day-cell {
+                min-height: 80px;
+                padding: 5px;
+            }
+            
+            .release-item {
+                font-size: 10px;
+                padding: 4px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏀 스포츠카드 발매 캘린더</h1>
+            <p>매일 자동 업데이트 (checklistinsider.com)</p>
+        </div>
+
+        <div class="update-info" id="updateInfo">
+            마지막 업데이트: 로딩 중...
+        </div>
+
+        <div class="controls">
+            <div class="month-nav">
+                <button onclick="prevMonth()">◀ 이전</button>
+                <div class="current-month" id="currentMonth"></div>
+                <button onclick="nextMonth()">다음 ▶</button>
+            </div>
+            <div class="sport-filters" id="sportFilters"></div>
+        </div>
+
+        <div class="calendar">
+            <div class="calendar-grid">
+                <div class="day-header">일</div>
+                <div class="day-header">월</div>
+                <div class="day-header">화</div>
+                <div class="day-header">수</div>
+                <div class="day-header">목</div>
+                <div class="day-header">금</div>
+                <div class="day-header">토</div>
+            </div>
+            <div class="calendar-grid" id="calendarDays">
+                <div class="loading">데이터 로딩 중...</div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color sport-basketball"></div>
+                <span>농구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-baseball"></div>
+                <span>야구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-football"></div>
+                <span>미식축구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-soccer"></div>
+                <span>축구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-hockey"></div>
+                <span>하키</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-racing"></div>
+                <span>레이싱</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-wrestling"></div>
+                <span>레슬링</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-golf"></div>
+                <span>골프</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-tennis"></div>
+                <span>테니스</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-mma"></div>
+                <span>MMA</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-other"></div>
+                <span>기타</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle"></h2>
+            <div id="modalBody"></div>
+            <button class="close-modal" onclick="closeModal()">닫기</button>
+        </div>
+    </div>
+
+    <script>
+        let currentDate = new Date();
+        let activeFilters = new Set();
+        let releasesData = [];
+
+        const sports = {
+            basketball: '농구',
+            baseball: '야구',
+            football: '미식축구',
+            soccer: '축구',
+            hockey: '하키',
+            racing: '레이싱',
+            wrestling: '레슬링',
+            golf: '골프',
+            tennis: '테니스',
+            mma: 'MMA',
+            other: '기타'
+        };
+
+        // JSON 데이터 로드
+        async function loadReleases() {
+            try {
+                const response = await fetch('releases.json');
+                const data = await response.json();
+                releasesData = data;
+                
+                // 업데이트 시간 표시
+                const now = new Date();
+                document.getElementById('updateInfo').textContent = 
+                    `마지막 업데이트: ${now.toLocaleString('ko-KR')}`;
+                
+                initFilters();
+                renderCalendar();
+            } catch (error) {
+                console.error('데이터 로딩 오류:', error);
+                document.getElementById('calendarDays').innerHTML = 
+                    '<div class="loading">데이터를 불러올 수 없습니다.</div>';
+            }
+        }
+
+        function initFilters() {
+            const filtersContainer = document.getElementById('sportFilters');
+            filtersContainer.innerHTML = '';
+            
+            Object.keys(sports).forEach(sport => {
+                const filter = document.createElement('div');
+                filter.className = `sport-filter sport-${sport} active`;
+                filter.textContent = sports[sport];
+                filter.onclick = () => toggleFilter(sport, filter);
+                activeFilters.add(sport);
+                filtersContainer.appendChild(filter);
+            });
+        }
+
+        function toggleFilter(sport, element) {
+            if (activeFilters.has(sport)) {
+                activeFilters.delete(sport);
+                element.classList.remove('active');
+            } else {
+                activeFilters.add(sport);
+                element.classList.add('active');
+            }
+            renderCalendar();
+        }
+
+        function renderCalendar() {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            
+            document.getElementById('currentMonth').textContent = 
+                `${year}년 ${month + 1}월`;
+
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const daysInPrevMonth = new Date(year, month, 0).getDate();
+
+            const calendarDays = document.getElementById('calendarDays');
+            calendarDays.innerHTML = '';
+
+            const today = new Date();
+            const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
+
+            // 이전 달 날짜
+            for (let i = firstDay - 1; i >= 0; i--) {
+                const day = daysInPrevMonth - i;
+                const cell = createDayCell(day, true, year, month - 1);
+                calendarDays.appendChild(cell);
+            }
+
+            // 현재 달 날짜
+            for (let day = 1; day <= daysInMonth; day++) {
+                const isToday = isCurrentMonth && today.getDate() === day;
+                const cell = createDayCell(day, false, year, month, isToday);
+                calendarDays.appendChild(cell);
+            }
+
+            // 다음 달 날짜
+            const remainingCells = 42 - (firstDay + daysInMonth);
+            for (let day = 1; day <= remainingCells; day++) {
+                const cell = createDayCell(day, true, year, month + 1);
+                calendarDays.appendChild(cell);
+            }
+        }
+
+        function createDayCell(day, isOtherMonth, year, month, isToday = false) {
+            const cell = document.createElement('div');
+            cell.className = 'day-cell';
+            if (isOtherMonth) cell.classList.add('other-month');
+            if (isToday) cell.classList.add('today');
+
+            const dayNumber = document.createElement('div');
+            dayNumber.className = 'day-number';
+            dayNumber.textContent = day;
+            cell.appendChild(dayNumber);
+
+            if (!isOtherMonth) {
+                const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const releases = releasesData.filter(r => 
+                    r.date === dateStr && activeFilters.has(r.sport)
+                );
+
+                releases.forEach(release => {
+                    const item = document.createElement('div');
+                    item.className = `release-item sport-${release.sport}`;
+                    item.textContent = release.name;
+                    item.onclick = () => showReleaseDetails(release);
+                    cell.appendChild(item);
+                });
+            }
+
+            return cell;
+        }
+
+        function showReleaseDetails(release) {
+            const modal = document.getElementById('modal');
+            document.getElementById('modalTitle').textContent = release.name;
+            
+            let bodyHTML = `
+                <p><strong>스포츠:</strong> ${sports[release.sport] || '기타'}</p>
+                <p><strong>브랜드:</strong> ${release.brand}</p>
+                <p><strong>발매일:</strong> ${release.date}</p>
+            `;
+            
+            if (release.url) {
+                bodyHTML += `
+                    <p><strong>상세정보:</strong> <a href="${release.url}" target="_blank">자세히 보기 →</a></p>
+                `;
+            }
+            
+            document.getElementById('modalBody').innerHTML = bodyHTML;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        function prevMonth() {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+        }
+
+        function nextMonth() {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+        }
+
+        // 모달 외부 클릭시 닫기
+        document.getElementById('modal').onclick = function(e) {
+            if (e.target.id === 'modal') {
+                closeModal();
+            }
+        };
+
+        // 페이지 로드 시 데이터 가져오기
+        loadReleases();
+    </script>
+</body>
+</html>

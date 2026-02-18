@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스포츠카드 발매 캘린더 - 완전판</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .month-nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .month-nav button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        .month-nav button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+
+        .current-month {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            min-width: 200px;
+            text-align: center;
+        }
+
+        .sport-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sport-filter {
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .sport-filter:hover {
+            transform: scale(1.05);
+        }
+
+        .sport-filter.active {
+            border: 2px solid #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .calendar {
+            padding: 30px;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 15px;
+            width: 100%;
+        }
+
+        .day-header {
+            text-align: center;
+            font-weight: bold;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #495057;
+        }
+
+        .day-cell {
+            min-height: 120px;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 10px;
+            background: white;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .day-cell:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .day-cell.other-month {
+            opacity: 0.3;
+            background: #f8f9fa;
+        }
+
+        .day-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+
+        .day-cell.today .day-number {
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .release-item {
+            margin: 5px 0;
+            padding: 6px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            line-height: 1.3;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: white;
+            font-weight: 500;
+        }
+
+        .release-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* 스포츠별 색상 - 더 직관적이고 구분하기 쉽게 */
+        .sport-basketball { background: #ff4757; } /* 밝은 빨강 - 농구공 */
+        .sport-baseball { background: #2ed573; } /* 밝은 초록 - 야구장 잔디 */
+        .sport-football { background: #5f27cd; } /* 보라 - 미식축구 */
+        .sport-soccer { background: #00d2d3; } /* 청록 - 축구 */
+        .sport-hockey { background: #1e90ff; } /* 파랑 - 아이스링크 */
+        .sport-racing { background: #ff6348; } /* 주황 - 레이싱 */
+        .sport-wrestling { background: #ffa502; } /* 황금색 - 레슬링 챔피언십 벨트 */
+        .sport-golf { background: #26de81; } /* 연두 - 골프장 */
+        .sport-tennis { background: #fd79a8; } /* 핑크 - 테니스공 */
+        .sport-mma { background: #ea2027; } /* 진한 빨강 - 격투기 */
+        .sport-other { background: #95afc0; } /* 회색 - 기타 */
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-content h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .modal-content p {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .modal-content a {
+            color: #667eea;
+            text-decoration: underline;
+        }
+
+        .close-modal {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .close-modal:hover {
+            background: #764ba2;
+        }
+
+        @media (max-width: 768px) {
+            .calendar-grid {
+                gap: 8px;
+            }
+            
+            .day-cell {
+                min-height: 80px;
+                padding: 5px;
+            }
+            
+            .release-item {
+                font-size: 10px;
+                padding: 4px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏀 스포츠카드 발매 캘린더</h1>
+            <p>70+ 발매 일정 (checklistinsider.com 기반)</p>
+        </div>
+
+        <div class="controls">
+            <div class="month-nav">
+                <button onclick="prevMonth()">◀ 이전</button>
+                <div class="current-month" id="currentMonth"></div>
+                <button onclick="nextMonth()">다음 ▶</button>
+            </div>
+            <div class="sport-filters" id="sportFilters"></div>
+        </div>
+
+        <div class="calendar">
+            <div class="calendar-grid">
+                <div class="day-header">일</div>
+                <div class="day-header">월</div>
+                <div class="day-header">화</div>
+                <div class="day-header">수</div>
+                <div class="day-header">목</div>
+                <div class="day-header">금</div>
+                <div class="day-header">토</div>
+            </div>
+            <div class="calendar-grid" id="calendarDays"></div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color sport-basketball"></div>
+                <span>농구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-baseball"></div>
+                <span>야구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-football"></div>
+                <span>미식축구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-soccer"></div>
+                <span>축구</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-hockey"></div>
+                <span>하키</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-racing"></div>
+                <span>레이싱</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-wrestling"></div>
+                <span>레슬링</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-golf"></div>
+                <span>골프</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-tennis"></div>
+                <span>테니스</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-mma"></div>
+                <span>MMA</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color sport-other"></div>
+                <span>기타</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle"></h2>
+            <div id="modalBody"></div>
+            <button class="close-modal" onclick="closeModal()">닫기</button>
+        </div>
+    </div>
+
+    <script>
+        let currentDate = new Date();
+        let activeFilters = new Set();
+
+        const sports = {
+            basketball: '농구',
+            baseball: '야구',
+            football: '미식축구',
+            soccer: '축구',
+            hockey: '하키',
+            racing: '레이싱',
+            wrestling: '레슬링',
+            golf: '골프',
+            tennis: '테니스',
+            mma: 'MMA',
+            other: '기타'
+        };
+
+        // 실제 발매 데이터 - 총 70개 이상!
+        const releasesData = [
+            // 1월 2026
+            { date: '2026-01-16', sport: 'soccer', name: 'Topps Chrome Sapphire UEFA Women\'s CL', brand: 'Topps', url: 'https://www.checklistinsider.com/2024-25-topps-chrome-sapphire-uefa-womens-champions-league' },
+            { date: '2026-01-21', sport: 'hockey', name: 'Upper Deck Chicago Blackhawks Centennial', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-upper-deck-chicago-blackhawks-centennial' },
+            { date: '2026-01-21', sport: 'other', name: 'Upper Deck Grateful Dead 60 Years', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/upper-deck-grateful-dead' },
+            { date: '2026-01-22', sport: 'racing', name: 'Topps Chrome Formula 1', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-chrome-formula-1' },
+            { date: '2026-01-22', sport: 'basketball', name: 'Topps Chrome Sapphire Basketball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-chrome-sapphire-basketball' },
+            { date: '2026-01-23', sport: 'mma', name: 'Topps Stadium Club UFC', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-stadium-club-ufc' },
+            { date: '2026-01-23', sport: 'soccer', name: 'Topps Bundesliga International Stars', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-bundesliga-international-stars-soccer' },
+            { date: '2026-01-26', sport: 'football', name: 'Donruss Optic Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-donruss-optic-football' },
+            { date: '2026-01-26', sport: 'baseball', name: 'Topps Update Japan Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-update-japan-baseball' },
+            { date: '2026-01-28', sport: 'football', name: 'Panini Texas Longhorns NIL', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-texas-longhorns' },
+            { date: '2026-01-28', sport: 'baseball', name: 'Bowman Draft Mega Box Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-bowman-draft-mega-box-baseball' },
+            { date: '2026-01-29', sport: 'hockey', name: 'O-Pee-Chee Hockey', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-o-pee-chee-hockey' },
+            { date: '2026-01-29', sport: 'basketball', name: 'Topps Midnight Basketball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-midnight-basketball' },
+            { date: '2026-01-29', sport: 'soccer', name: 'Topps Paris Saint-Germain Team Set', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-paris-saint-germain-team-set' },
+            { date: '2026-01-29', sport: 'racing', name: 'Topps Chrome LogoFractor Formula 1', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-chrome-logofractor-formula-1' },
+            { date: '2026-01-30', sport: 'hockey', name: 'Upper Deck DC X NHL Crossover', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2026-upper-deck-dc-x-nhl-crossover' },
+            
+            // 2월 2026
+            { date: '2026-02-02', sport: 'football', name: 'Panini Prizm Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-prizm-football' },
+            { date: '2026-02-02', sport: 'hockey', name: 'Upper Deck Tim Hortons Team Canada Olympic', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2026-upper-deck-tim-hortons-team-canada-olympic-hockey' },
+            { date: '2026-02-04', sport: 'hockey', name: 'Upper Deck Detroit Red Wings Centennial', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-upper-deck-detroit-red-wings-centennial-hockey' },
+            { date: '2026-02-04', sport: 'other', name: 'Topps Marvel The Collector', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-marvel-the-collector' },
+            { date: '2026-02-05', sport: 'soccer', name: 'Topps Chrome Premier League Soccer', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-chrome-premier-league' },
+            { date: '2026-02-06', sport: 'baseball', name: 'Topps Museum Collection Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-museum-collection-baseball' },
+            { date: '2026-02-06', sport: 'mma', name: 'Topps Royalty UFC', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-royalty-ufc' },
+            { date: '2026-02-06', sport: 'tennis', name: 'Topps Chrome Tennis', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-chrome-tennis' },
+            { date: '2026-02-06', sport: 'football', name: 'Panini Instant Rated Rookie Holoflex', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-instant-rated-rookie-holoflex-football' },
+            { date: '2026-02-11', sport: 'hockey', name: 'SP Game Used Hockey', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-sp-game-used-hockey' },
+            { date: '2026-02-11', sport: 'baseball', name: 'Topps MLB MVP Collection', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-mlb-mvp' },
+            { date: '2026-02-11', sport: 'baseball', name: 'Topps Series 1 Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2026-topps-series-1-baseball' },
+            { date: '2026-02-11', sport: 'baseball', name: 'Bowman Draft Sapphire Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-bowman-draft-sapphire-baseball' },
+            { date: '2026-02-11', sport: 'soccer', name: 'Topps Knockout UEFA Women\'s CL', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-knockout-uefa-womens-champions-league' },
+            { date: '2026-02-12', sport: 'baseball', name: 'Topps Pristine Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-pristine-baseball' },
+            { date: '2026-02-12', sport: 'other', name: 'Garbage Pail Kids Valentine\'s Day', brand: 'Topps', url: 'https://www.checklistinsider.com/2026-topps-garbage-pail-kids-valentines-day' },
+            { date: '2026-02-12', sport: 'racing', name: 'Topps Chrome Sapphire Formula 1', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-chrome-sapphire-formula-1' },
+            { date: '2026-02-12', sport: 'soccer', name: 'Topps Los Blancos Real Madrid', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-los-blancos-real-madrid' },
+            { date: '2026-02-12', sport: 'soccer', name: 'Topps Manchester United Team Set', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-manchester-united-team-set' },
+            { date: '2026-02-13', sport: 'basketball', name: 'Topps Chrome Cactus Jack X NBA All-Star', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-chrome-cactus-jack-x-nba-all-star-game' },
+            { date: '2026-02-18', sport: 'golf', name: 'Upper Deck Golf', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-upper-deck-golf' },
+            { date: '2026-02-18', sport: 'golf', name: 'Panini Impeccable LIV Golf', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-impeccable-liv-golf' },
+            { date: '2026-02-18', sport: 'baseball', name: 'Panini Prospect Edition Baseball', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-prospect-edition-baseball' },
+            { date: '2026-02-18', sport: 'other', name: 'Rittenhouse Star Trek Connections', brand: 'Rittenhouse', url: 'https://www.checklistinsider.com/rittenhouse-star-trek-connections' },
+            { date: '2026-02-18', sport: 'hockey', name: 'Topps NHL Sticker Collection', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-nhl-sticker-collection-hockey' },
+            { date: '2026-02-18', sport: 'football', name: 'Panini National Treasures Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-national-treasures-football' },
+            { date: '2026-02-18', sport: 'baseball', name: 'Topps Stadium Club Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-stadium-club-baseball' },
+            { date: '2026-02-18', sport: 'hockey', name: 'Fleer Ultra Hockey', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-fleer-ultra-hockey' },
+            { date: '2026-02-19', sport: 'football', name: 'Panini Select Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-select-football' },
+            { date: '2026-02-19', sport: 'basketball', name: 'Topps 3 Basketball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-3-basketball' },
+            { date: '2026-02-19', sport: 'soccer', name: 'Topps Chrome MLS Soccer', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-chrome-mls-soccer' },
+            { date: '2026-02-20', sport: 'baseball', name: 'Topps Gilded Collection Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-gilded-collection-baseball' },
+            { date: '2026-02-20', sport: 'football', name: 'Panini Authentically Mahomes', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-authentically-mahomes-football' },
+            { date: '2026-02-25', sport: 'hockey', name: 'SP Hockey', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-sp-hockey' },
+            { date: '2026-02-26', sport: 'basketball', name: 'Topps Finest Basketball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-26-topps-finest-basketball' },
+            { date: '2026-02-27', sport: 'wrestling', name: 'Topps Universe WWE', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-universe-wwe' },
+            { date: '2026-02-27', sport: 'football', name: 'Panini Flawless Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-flawless-football' },
+            
+            // 3월 2026
+            { date: '2026-03-03', sport: 'wrestling', name: 'Topps John Cena Commemorative', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-john-cena-commemorative-collection' },
+            { date: '2026-03-04', sport: 'hockey', name: 'Upper Deck Series 2 Hockey', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-upper-deck-series-2-hockey' },
+            { date: '2026-03-04', sport: 'hockey', name: 'Upper Deck Star Rookies Box Set', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2025-26-upper-deck-star-rookies-hockey-box-set' },
+            { date: '2026-03-04', sport: 'basketball', name: 'Panini One and One WNBA', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-one-and-one-wnba' },
+            { date: '2026-03-04', sport: 'football', name: 'Panini Patrick Mahomes Icon Collection', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-patrick-mahomes-icon-collection-football' },
+            { date: '2026-03-10', sport: 'other', name: 'Topps Stranger Things', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-stranger-things' },
+            { date: '2026-03-11', sport: 'baseball', name: 'Bowman\'s Best Baseball', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-bowmans-best-baseball' },
+            { date: '2026-03-11', sport: 'football', name: 'Panini Prizm Black Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-prizm-black-football' },
+            { date: '2026-03-12', sport: 'soccer', name: 'Donruss Road to FIFA World Cup', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-26-donruss-road-to-world-cup' },
+            { date: '2026-03-12', sport: 'basketball', name: 'Topps Chrome McDonald\'s All American', brand: 'Topps', url: 'https://www.checklistinsider.com/2025-topps-chrome-mcdonalds-all-american-basketball' },
+            { date: '2026-03-13', sport: 'basketball', name: 'Panini Prizm WNBA', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-prizm-wnba-basketball' },
+            { date: '2026-03-13', sport: 'other', name: 'Topps Disneyland 70th Anniversary', brand: 'Topps', url: 'https://www.checklistinsider.com/topps-disneyland-70' },
+            { date: '2026-03-18', sport: 'basketball', name: 'Panini Contenders EuroLeague', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-26-panini-contenders-euroleague-basketball' },
+            { date: '2026-03-18', sport: 'other', name: 'Topps Star Wars Smugglers Outpost', brand: 'Topps', url: 'https://www.checklistinsider.com/topps-star-wars-smugglers-outpost' },
+            { date: '2026-03-27', sport: 'soccer', name: 'Panini Prizm FIFA Soccer', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-26-panini-prizm-fifa-soccer' },
+            { date: '2026-03-27', sport: 'football', name: 'Panini Silhouette Football', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-silhouette-football' },
+            
+            // 4월 2026
+            { date: '2026-04-01', sport: 'basketball', name: 'Panini Select WNBA', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-panini-select-wnba-basketball' },
+            { date: '2026-04-03', sport: 'soccer', name: 'Panini Noir Road to FIFA World Cup', brand: 'Panini', url: 'https://www.checklistinsider.com/2025-26-panini-noir-road-to-fifa-world-cup' },
+            { date: '2026-04-11', sport: 'hockey', name: 'Upper Deck National Hockey Card Day', brand: 'Upper Deck', url: 'https://www.checklistinsider.com/2026-upper-deck-national-hockey-card-day' },
+        ];
+
+        function initFilters() {
+            const filtersContainer = document.getElementById('sportFilters');
+            Object.keys(sports).forEach(sport => {
+                const filter = document.createElement('div');
+                filter.className = `sport-filter sport-${sport} active`;
+                filter.textContent = sports[sport];
+                filter.onclick = () => toggleFilter(sport, filter);
+                activeFilters.add(sport);
+                filtersContainer.appendChild(filter);
+            });
+        }
+
+        function toggleFilter(sport, element) {
+            if (activeFilters.has(sport)) {
+                activeFilters.delete(sport);
+                element.classList.remove('active');
+            } else {
+                activeFilters.add(sport);
+                element.classList.add('active');
+            }
+            renderCalendar();
+        }
+
+        function renderCalendar() {
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+            
+            document.getElementById('currentMonth').textContent = 
+                `${year}년 ${month + 1}월`;
+
+            const firstDay = new Date(year, month, 1).getDay();
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const daysInPrevMonth = new Date(year, month, 0).getDate();
+
+            const calendarDays = document.getElementById('calendarDays');
+            calendarDays.innerHTML = '';
+
+            const today = new Date();
+            const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
+
+            // 이전 달 날짜
+            for (let i = firstDay - 1; i >= 0; i--) {
+                const day = daysInPrevMonth - i;
+                const cell = createDayCell(day, true, year, month - 1);
+                calendarDays.appendChild(cell);
+            }
+
+            // 현재 달 날짜
+            for (let day = 1; day <= daysInMonth; day++) {
+                const isToday = isCurrentMonth && today.getDate() === day;
+                const cell = createDayCell(day, false, year, month, isToday);
+                calendarDays.appendChild(cell);
+            }
+
+            // 다음 달 날짜
+            const remainingCells = 42 - (firstDay + daysInMonth);
+            for (let day = 1; day <= remainingCells; day++) {
+                const cell = createDayCell(day, true, year, month + 1);
+                calendarDays.appendChild(cell);
+            }
+        }
+
+        function createDayCell(day, isOtherMonth, year, month, isToday = false) {
+            const cell = document.createElement('div');
+            cell.className = 'day-cell';
+            if (isOtherMonth) cell.classList.add('other-month');
+            if (isToday) cell.classList.add('today');
+
+            const dayNumber = document.createElement('div');
+            dayNumber.className = 'day-number';
+            dayNumber.textContent = day;
+            cell.appendChild(dayNumber);
+
+            if (!isOtherMonth) {
+                const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const releases = releasesData.filter(r => 
+                    r.date === dateStr && activeFilters.has(r.sport)
+                );
+
+                releases.forEach(release => {
+                    const item = document.createElement('div');
+                    item.className = `release-item sport-${release.sport}`;
+                    item.textContent = release.name;
+                    item.onclick = () => showReleaseDetails(release);
+                    cell.appendChild(item);
+                });
+            }
+
+            return cell;
+        }
+
+        function showReleaseDetails(release) {
+            const modal = document.getElementById('modal');
+            document.getElementById('modalTitle').textContent = release.name;
+            
+            let bodyHTML = `
+                <p><strong>스포츠:</strong> ${sports[release.sport] || '기타'}</p>
+                <p><strong>브랜드:</strong> ${release.brand}</p>
+                <p><strong>발매일:</strong> ${release.date}</p>
+            `;
+            
+            if (release.url) {
+                bodyHTML += `
+                    <p><strong>상세정보:</strong> <a href="${release.url}" target="_blank">자세히 보기 →</a></p>
+                `;
+            }
+            
+            document.getElementById('modalBody').innerHTML = bodyHTML;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        function prevMonth() {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+        }
+
+        function nextMonth() {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+        }
+
+        // 모달 외부 클릭시 닫기
+        document.getElementById('modal').onclick = function(e) {
+            if (e.target.id === 'modal') {
+                closeModal();
+            }
+        };
+
+        // 초기화
+        initFilters();
+        renderCalendar();
+    </script>
+</body>
+</html>
