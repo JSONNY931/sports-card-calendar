@@ -421,7 +421,7 @@
         // JSON 데이터 로드
         async function loadReleases() {
             try {
-                const response = await fetch('releases.json');
+                const response = await fetch(`releases.json?ts=${Date.now()}`)
                 const data = await response.json();
                 releasesData = data;
                 
