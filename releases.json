@@ -49,6 +49,13 @@
     "url": "https://www.checklistinsider.com/2026-upper-deck-national-hockey-card-day"
   },
   {
+    "date": "2026-04-10",
+    "sport": "other",
+    "name": "2026 Topps Disney Neon",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-disney-neon"
+  },
+  {
     "date": "2026-04-08",
     "sport": "soccer",
     "name": "2025-26 Panini Select La Liga Soccer",
@@ -148,24 +155,10 @@
   },
   {
     "date": "2026-03-18",
-    "sport": "football",
-    "name": "2025 Panini Prizm Black Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-prizm-black-football"
-  },
-  {
-    "date": "2026-03-18",
     "sport": "other",
     "name": "2025-26 Topps Chrome Bundesliga Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-chrome-bundesliga"
-  },
-  {
-    "date": "2026-03-18",
-    "sport": "other",
-    "name": "2025-26 Upper Deck New York Rangers Centennial Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-new-york-rangers-centennial"
   },
   {
     "date": "2026-03-18",
@@ -187,6 +180,20 @@
     "name": "2026 Upper Deck Batman The Animated Series",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/upper-deck-batman-the-animated-series"
+  },
+  {
+    "date": "2026-03-18",
+    "sport": "football",
+    "name": "2025 Panini Prizm Black Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-prizm-black-football"
+  },
+  {
+    "date": "2026-03-18",
+    "sport": "other",
+    "name": "2025-26 Upper Deck New York Rangers Centennial Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-new-york-rangers-centennial"
   },
   {
     "date": "2026-03-13",
@@ -264,6 +271,13 @@
     "name": "2025-26 Topps Chrome Sapphire Premier League Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/topps-chrome-sapphire-premier-league"
+  },
+  {
+    "date": "2026-03-05",
+    "sport": "other",
+    "name": "2025-26 Topps FC Barcelona Forever Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-fc-barcelona-forever"
   },
   {
     "date": "2026-03-04",
