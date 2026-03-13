@@ -219,13 +219,6 @@
   {
     "date": "2026-03-25",
     "sport": "other",
-    "name": "2026 Upper Deck World of Sports Volume 2",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports-volume-2"
-  },
-  {
-    "date": "2026-03-25",
-    "sport": "other",
     "name": "2026 Topps Collectors Kit",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2026-topps-collector-kit"
@@ -236,6 +229,13 @@
     "name": "2025-26 Panini Contenders EuroLeague Basketball",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-26-panini-contenders-euroleague-basketball"
+  },
+  {
+    "date": "2026-03-25",
+    "sport": "other",
+    "name": "2026 Upper Deck World of Sports Volume 2",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports-volume-2"
   },
   {
     "date": "2026-03-18",
@@ -882,6 +882,13 @@
     "url": "https://www.checklistinsider.com/2025-26-topps-uefa-club-competitions"
   },
   {
+    "date": "2026-01-15",
+    "sport": "other",
+    "name": "2025-26 Topps Chelsea Team Set Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-chelsea-team-set"
+  },
+  {
     "date": "2026-01-14",
     "sport": "other",
     "name": "2025 SP Signature Edition AEW Wrestling",
@@ -1275,13 +1282,6 @@
   },
   {
     "date": "2025-11-19",
-    "sport": "wrestling",
-    "name": "2025 SP Game Used AEW Wrestling",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-sp-game-used-aew-wrestling"
-  },
-  {
-    "date": "2025-11-19",
     "sport": "baseball",
     "name": "2025 Panini National Treasures Baseball",
     "brand": "Panini",
@@ -1307,6 +1307,13 @@
     "name": "2024-25 Fleer Ultra Hockey",
     "brand": "Fleer",
     "url": "https://www.checklistinsider.com/2024-25-fleer-ultra-hockey"
+  },
+  {
+    "date": "2025-11-19",
+    "sport": "wrestling",
+    "name": "2025 SP Game Used AEW Wrestling",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-sp-game-used-aew-wrestling"
   },
   {
     "date": "2025-11-12",
@@ -2793,28 +2800,21 @@
     "url": "https://www.checklistinsider.com/2024-25-skybox-metal-universe-hockey"
   },
   {
-    "date": "2025-05-13",
-    "sport": "other",
-    "name": "2024-25 Topps Lineage Chelsea 120 Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-lineage-chelsea"
-  },
-  {
-    "date": "2025-05-13",
+    "date": "2025-05-14",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-05-13",
+    "date": "2025-05-14",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-05-13",
+    "date": "2025-05-14",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
