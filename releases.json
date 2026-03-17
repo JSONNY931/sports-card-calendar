@@ -78,6 +78,13 @@
   },
   {
     "date": "2026-04-29",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Credentials Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-credentials-hockey"
+  },
+  {
+    "date": "2026-04-29",
     "sport": "other",
     "name": "2026 Rittenhouse Frasier Premiere Edition",
     "brand": "Rittenhouse",
@@ -106,17 +113,17 @@
   },
   {
     "date": "2026-04-22",
-    "sport": "racing",
-    "name": "2026 Donruss NASCAR Racing",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
-  },
-  {
-    "date": "2026-04-22",
     "sport": "hockey",
     "name": "2025-26 Skybox Metal Universe Hockey",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2025-26-skybox-metal-universe-hockey"
+  },
+  {
+    "date": "2026-04-22",
+    "sport": "racing",
+    "name": "2026 Donruss NASCAR Racing",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
   },
   {
     "date": "2026-04-15",
@@ -141,24 +148,17 @@
   },
   {
     "date": "2026-04-10",
+    "sport": "wrestling",
+    "name": "2026 Topps Chrome WWE Wrestling",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-chrome-wwe-wrestling"
+  },
+  {
+    "date": "2026-04-10",
     "sport": "other",
     "name": "2026 Topps Disney Neon",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2026-topps-disney-neon"
-  },
-  {
-    "date": "2026-04-08",
-    "sport": "soccer",
-    "name": "2025-26 Panini Select La Liga Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-select-la-liga-soccer"
-  },
-  {
-    "date": "2026-04-08",
-    "sport": "hockey",
-    "name": "2025-26 Flair Hockey",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-26-flair-hockey"
   },
   {
     "date": "2026-04-08",
@@ -169,10 +169,24 @@
   },
   {
     "date": "2026-04-08",
+    "sport": "hockey",
+    "name": "2025-26 Flair Hockey",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-26-flair-hockey"
+  },
+  {
+    "date": "2026-04-08",
     "sport": "other",
     "name": "2026 Fleer Ultra Superman",
     "brand": "Fleer",
     "url": "https://www.checklistinsider.com/fleer-ultra-superman"
+  },
+  {
+    "date": "2026-04-08",
+    "sport": "soccer",
+    "name": "2025-26 Panini Select La Liga Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-26-panini-select-la-liga-soccer"
   },
   {
     "date": "2026-04-03",
@@ -190,17 +204,17 @@
   },
   {
     "date": "2026-04-01",
-    "sport": "baseball",
-    "name": "2025 Topps Transcendent Collection Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-transcendent-collection-baseball"
-  },
-  {
-    "date": "2026-04-01",
     "sport": "other",
     "name": "2025 Topps Exalted WWE Wrestling",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-exalted-wwe"
+  },
+  {
+    "date": "2026-04-01",
+    "sport": "baseball",
+    "name": "2025 Topps Transcendent Collection Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-transcendent-collection-baseball"
   },
   {
     "date": "2026-04-01",
@@ -233,9 +247,9 @@
   {
     "date": "2026-03-25",
     "sport": "other",
-    "name": "2026 Topps Collectors Kit",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2026-topps-collector-kit"
+    "name": "2026 Upper Deck World of Sports Volume 2",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports-volume-2"
   },
   {
     "date": "2026-03-25",
@@ -247,9 +261,9 @@
   {
     "date": "2026-03-25",
     "sport": "other",
-    "name": "2026 Upper Deck World of Sports Volume 2",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports-volume-2"
+    "name": "2026 Topps Collectors Kit",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-collector-kit"
   },
   {
     "date": "2026-03-20",
@@ -268,9 +282,9 @@
   {
     "date": "2026-03-18",
     "sport": "other",
-    "name": "2025 Topps Star Wars Smugglers Outpost",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/topps-star-wars-smugglers-outpost"
+    "name": "2025-26 Upper Deck New York Rangers Centennial Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-new-york-rangers-centennial"
   },
   {
     "date": "2026-03-18",
@@ -281,10 +295,17 @@
   },
   {
     "date": "2026-03-18",
+    "sport": "football",
+    "name": "2025 Panini Prizm Black Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-prizm-black-football"
+  },
+  {
+    "date": "2026-03-18",
     "sport": "other",
-    "name": "2025-26 Upper Deck New York Rangers Centennial Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-new-york-rangers-centennial"
+    "name": "2025 Topps Star Wars Smugglers Outpost",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/topps-star-wars-smugglers-outpost"
   },
   {
     "date": "2026-03-18",
@@ -292,13 +313,6 @@
     "name": "2025-26 Topps Chrome Bundesliga Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-chrome-bundesliga"
-  },
-  {
-    "date": "2026-03-18",
-    "sport": "football",
-    "name": "2025 Panini Prizm Black Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-prizm-black-football"
   },
   {
     "date": "2026-03-18",
@@ -315,11 +329,11 @@
     "url": "https://www.checklistinsider.com/2025-26-panini-eternity-efl-soccer"
   },
   {
-    "date": "2026-03-13",
-    "sport": "other",
-    "name": "2025 Topps Disneyland 70th Anniversary",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/topps-disneyland-70"
+    "date": "2026-03-16",
+    "sport": "golf",
+    "name": "2026 Upper Deck TGL Season 2 Golf",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2026-upper-deck-tgl-season-2-golf"
   },
   {
     "date": "2026-03-13",
@@ -329,11 +343,25 @@
     "url": "https://www.checklistinsider.com/2025-panini-one-and-one-wnba"
   },
   {
+    "date": "2026-03-13",
+    "sport": "other",
+    "name": "2025 Topps Disneyland 70th Anniversary",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/topps-disneyland-70"
+  },
+  {
     "date": "2026-03-12",
     "sport": "basketball",
     "name": "2025 Topps Chrome McDonald’s All American Basketball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-mcdonalds-all-american-basketball"
+  },
+  {
+    "date": "2026-03-11",
+    "sport": "baseball",
+    "name": "2025 Bowman’s Best Baseball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-bowmans-best-baseball"
   },
   {
     "date": "2026-03-11",
@@ -350,13 +378,6 @@
     "url": "https://www.checklistinsider.com/2026-panini-instant-nwsl-first-look-soccer"
   },
   {
-    "date": "2026-03-11",
-    "sport": "baseball",
-    "name": "2025 Bowman’s Best Baseball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-bowmans-best-baseball"
-  },
-  {
     "date": "2026-03-06",
     "sport": "other",
     "name": "2025 Topps Stranger Things",
@@ -366,23 +387,23 @@
   {
     "date": "2026-03-06",
     "sport": "other",
-    "name": "2026 Topps Brooklyn Collection Captain America 85th Anniversary",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2026-topps-brooklyn-collection-captain-america"
-  },
-  {
-    "date": "2026-03-06",
-    "sport": "other",
     "name": "2026 Panini Seattle Seahawks Super Bowl LX Champions Box Set Football",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2026-panini-seattle-seahawks-super-bowl-lx-champions"
   },
   {
-    "date": "2026-03-05",
+    "date": "2026-03-06",
     "sport": "other",
-    "name": "2025-26 Topps FC Barcelona Forever Soccer",
+    "name": "2026 Topps Brooklyn Collection Captain America 85th Anniversary",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-fc-barcelona-forever"
+    "url": "https://www.checklistinsider.com/2026-topps-brooklyn-collection-captain-america"
+  },
+  {
+    "date": "2026-03-05",
+    "sport": "basketball",
+    "name": "2025-26 Topps 3 Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-3-basketball"
   },
   {
     "date": "2026-03-05",
@@ -400,10 +421,10 @@
   },
   {
     "date": "2026-03-05",
-    "sport": "basketball",
-    "name": "2025-26 Topps 3 Basketball",
+    "sport": "other",
+    "name": "2025-26 Topps FC Barcelona Forever Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-3-basketball"
+    "url": "https://www.checklistinsider.com/2025-26-topps-fc-barcelona-forever"
   },
   {
     "date": "2026-03-05",
@@ -411,6 +432,13 @@
     "name": "2026 Topps Now WBC Team Sets Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2026-topps-now-wbc-team-sets-baseball"
+  },
+  {
+    "date": "2026-03-04",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Series 2 Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-series-2-hockey"
   },
   {
     "date": "2026-03-04",
@@ -425,13 +453,6 @@
     "name": "2025 Panini Mahomes Icon Collection Football",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-patrick-mahomes-icon-collection-football"
-  },
-  {
-    "date": "2026-03-04",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Series 2 Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-series-2-hockey"
   },
   {
     "date": "2026-03-03",
@@ -456,24 +477,24 @@
   },
   {
     "date": "2026-02-27",
-    "sport": "other",
-    "name": "2025 Topps Decades Premier League 1990s Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/topps-decades-premier-league"
-  },
-  {
-    "date": "2026-02-27",
     "sport": "football",
     "name": "2025 Panini Honors Football",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-honors-football"
   },
   {
+    "date": "2026-02-27",
+    "sport": "other",
+    "name": "2025 Topps Decades Premier League 1990s Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/topps-decades-premier-league"
+  },
+  {
     "date": "2026-02-26",
-    "sport": "football",
-    "name": "2025 Score Supplemental Football Premium Box Set",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-score-supplemental-football"
+    "sport": "other",
+    "name": "2025 Topps MLB MVP Collection Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-mlb-mvp"
   },
   {
     "date": "2026-02-26",
@@ -485,16 +506,16 @@
   {
     "date": "2026-02-26",
     "sport": "football",
-    "name": "2025 Donruss Rookies & Highlights Football Box Set",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2025-donruss-rookies-highlights-football"
+    "name": "2025 Score Supplemental Football Premium Box Set",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-score-supplemental-football"
   },
   {
     "date": "2026-02-26",
-    "sport": "other",
-    "name": "2025 Topps MLB MVP Collection Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-mlb-mvp"
+    "sport": "football",
+    "name": "2025 Donruss Rookies & Highlights Football Box Set",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2025-donruss-rookies-highlights-football"
   },
   {
     "date": "2026-02-25",
@@ -526,10 +547,10 @@
   },
   {
     "date": "2026-02-20",
-    "sport": "other",
-    "name": "2025-26 Topps Knockout UEFA Club Competitions Soccer",
+    "sport": "baseball",
+    "name": "2025 Topps Gilded Collection Baseball",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-knockout-uefa-club-competitions"
+    "url": "https://www.checklistinsider.com/2025-topps-gilded-collection-baseball"
   },
   {
     "date": "2026-02-20",
@@ -540,24 +561,17 @@
   },
   {
     "date": "2026-02-20",
-    "sport": "baseball",
-    "name": "2025 Topps Gilded Collection Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-gilded-collection-baseball"
-  },
-  {
-    "date": "2026-02-20",
     "sport": "football",
     "name": "2025 Panini Prizm Premium Football Box Set",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-prizm-premium-football-box-set"
   },
   {
-    "date": "2026-02-19",
-    "sport": "soccer",
-    "name": "2025 Topps Chrome MLS Soccer",
+    "date": "2026-02-20",
+    "sport": "other",
+    "name": "2025-26 Topps Knockout UEFA Club Competitions Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-mls-soccer"
+    "url": "https://www.checklistinsider.com/2025-26-topps-knockout-uefa-club-competitions"
   },
   {
     "date": "2026-02-19",
@@ -567,11 +581,25 @@
     "url": "https://www.checklistinsider.com/2025-panini-select-football"
   },
   {
-    "date": "2026-02-18",
-    "sport": "other",
-    "name": "2025-26 Topps Chrome LogoFractor Premier League Soccer",
+    "date": "2026-02-19",
+    "sport": "soccer",
+    "name": "2025 Topps Chrome MLS Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-chrome-logofractor-premier-league"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-mls-soccer"
+  },
+  {
+    "date": "2026-02-18",
+    "sport": "golf",
+    "name": "2026 Upper Deck Golf",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-golf"
+  },
+  {
+    "date": "2026-02-18",
+    "sport": "golf",
+    "name": "2025 Panini Impeccable LIV Golf",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-impeccable-liv-golf"
   },
   {
     "date": "2026-02-18",
@@ -579,6 +607,34 @@
     "name": "2025 Panini Prospect Edition Baseball",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-prospect-edition-baseball"
+  },
+  {
+    "date": "2026-02-18",
+    "sport": "other",
+    "name": "2026 Rittenhouse Star Trek Connections",
+    "brand": "Rittenhouse",
+    "url": "https://www.checklistinsider.com/rittenhouse-star-trek-connections"
+  },
+  {
+    "date": "2026-02-18",
+    "sport": "hockey",
+    "name": "2025-26 Topps NHL Sticker Collection Hockey",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-nhl-sticker-collection-hockey"
+  },
+  {
+    "date": "2026-02-18",
+    "sport": "football",
+    "name": "2025 Panini National Treasures Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-national-treasures-football"
+  },
+  {
+    "date": "2026-02-18",
+    "sport": "baseball",
+    "name": "2025 Topps Stadium Club Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-stadium-club-baseball"
   },
   {
     "date": "2026-02-18",
@@ -590,44 +646,9 @@
   {
     "date": "2026-02-18",
     "sport": "other",
-    "name": "2026 Rittenhouse Star Trek Connections",
-    "brand": "Rittenhouse",
-    "url": "https://www.checklistinsider.com/rittenhouse-star-trek-connections"
-  },
-  {
-    "date": "2026-02-18",
-    "sport": "golf",
-    "name": "2025 Panini Impeccable LIV Golf",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-impeccable-liv-golf"
-  },
-  {
-    "date": "2026-02-18",
-    "sport": "golf",
-    "name": "2026 Upper Deck Golf",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-golf"
-  },
-  {
-    "date": "2026-02-18",
-    "sport": "baseball",
-    "name": "2025 Topps Stadium Club Baseball",
+    "name": "2025-26 Topps Chrome LogoFractor Premier League Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-stadium-club-baseball"
-  },
-  {
-    "date": "2026-02-18",
-    "sport": "football",
-    "name": "2025 Panini National Treasures Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-national-treasures-football"
-  },
-  {
-    "date": "2026-02-18",
-    "sport": "hockey",
-    "name": "2025-26 Topps NHL Sticker Collection Hockey",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-nhl-sticker-collection-hockey"
+    "url": "https://www.checklistinsider.com/2025-26-topps-chrome-logofractor-premier-league"
   },
   {
     "date": "2026-02-16",
@@ -642,13 +663,6 @@
     "name": "2025-26 Topps Chrome Cactus Jack X NBA All-Star Game Basketball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-chrome-cactus-jack-x-nba-all-star-game"
-  },
-  {
-    "date": "2026-02-12",
-    "sport": "other",
-    "name": "2025-26 Topps Manchester United Team Set Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-manchester-united-team-set"
   },
   {
     "date": "2026-02-12",
@@ -667,6 +681,13 @@
   {
     "date": "2026-02-12",
     "sport": "other",
+    "name": "2025 Topps Chrome Sapphire Formula 1 Racing",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-formula-1"
+  },
+  {
+    "date": "2026-02-12",
+    "sport": "other",
     "name": "2025-26 Topps Los Blancos Real Madrid Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-los-blancos-real-madrid"
@@ -674,23 +695,9 @@
   {
     "date": "2026-02-12",
     "sport": "other",
-    "name": "2025 Topps Chrome Sapphire Formula 1 Racing",
+    "name": "2025-26 Topps Manchester United Team Set Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-formula-1"
-  },
-  {
-    "date": "2026-02-11",
-    "sport": "other",
-    "name": "2025-26 Topps Knockout UEFA Women’s Champions League Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-knockout-uefa-womens-champions-league"
-  },
-  {
-    "date": "2026-02-11",
-    "sport": "baseball",
-    "name": "2025 Bowman Draft Sapphire Baseball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-bowman-draft-sapphire-baseball"
+    "url": "https://www.checklistinsider.com/2025-26-topps-manchester-united-team-set"
   },
   {
     "date": "2026-02-11",
@@ -707,11 +714,25 @@
     "url": "https://www.checklistinsider.com/2026-topps-series-1-baseball"
   },
   {
-    "date": "2026-02-06",
-    "sport": "tennis",
-    "name": "2025 Topps Chrome Tennis",
+    "date": "2026-02-11",
+    "sport": "baseball",
+    "name": "2025 Bowman Draft Sapphire Baseball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-bowman-draft-sapphire-baseball"
+  },
+  {
+    "date": "2026-02-11",
+    "sport": "other",
+    "name": "2025-26 Topps Knockout UEFA Women’s Champions League Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-tennis"
+    "url": "https://www.checklistinsider.com/2025-26-topps-knockout-uefa-womens-champions-league"
+  },
+  {
+    "date": "2026-02-06",
+    "sport": "baseball",
+    "name": "2025 Topps Museum Collection Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-museum-collection-baseball"
   },
   {
     "date": "2026-02-06",
@@ -722,10 +743,10 @@
   },
   {
     "date": "2026-02-06",
-    "sport": "baseball",
-    "name": "2025 Topps Museum Collection Baseball",
+    "sport": "tennis",
+    "name": "2025 Topps Chrome Tennis",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-museum-collection-baseball"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-tennis"
   },
   {
     "date": "2026-02-06",
@@ -757,17 +778,17 @@
   },
   {
     "date": "2026-02-02",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Tim Hortons Team Canada Olympic Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2026-upper-deck-tim-hortons-team-canada-olympic-hockey"
-  },
-  {
-    "date": "2026-02-02",
     "sport": "football",
     "name": "2025 Panini Prizm Football",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-prizm-football"
+  },
+  {
+    "date": "2026-02-02",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Tim Hortons Team Canada Olympic Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2026-upper-deck-tim-hortons-team-canada-olympic-hockey"
   },
   {
     "date": "2026-01-30",
@@ -778,10 +799,10 @@
   },
   {
     "date": "2026-01-29",
-    "sport": "other",
-    "name": "2025-26 Topps Paris Saint-Germain Team Set Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-paris-saint-germain-team-set"
+    "sport": "hockey",
+    "name": "2025-26 O-Pee-Chee Hockey",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-26-o-pee-chee-hockey"
   },
   {
     "date": "2026-01-29",
@@ -793,16 +814,16 @@
   {
     "date": "2026-01-29",
     "sport": "other",
-    "name": "2025 Topps Chrome LogoFractor Formula 1 Racing",
+    "name": "2025-26 Topps Paris Saint-Germain Team Set Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-logofractor-formula-1"
+    "url": "https://www.checklistinsider.com/2025-26-topps-paris-saint-germain-team-set"
   },
   {
     "date": "2026-01-29",
-    "sport": "hockey",
-    "name": "2025-26 O-Pee-Chee Hockey",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-26-o-pee-chee-hockey"
+    "sport": "other",
+    "name": "2025 Topps Chrome LogoFractor Formula 1 Racing",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-logofractor-formula-1"
   },
   {
     "date": "2026-01-28",
@@ -820,17 +841,17 @@
   },
   {
     "date": "2026-01-26",
-    "sport": "baseball",
-    "name": "2025 Topps Update Japan Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-update-japan-baseball"
-  },
-  {
-    "date": "2026-01-26",
     "sport": "football",
     "name": "2025 Donruss Optic Football",
     "brand": "Donruss",
     "url": "https://www.checklistinsider.com/2025-donruss-optic-football"
+  },
+  {
+    "date": "2026-01-26",
+    "sport": "baseball",
+    "name": "2025 Topps Update Japan Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-update-japan-baseball"
   },
   {
     "date": "2026-01-23",
@@ -848,24 +869,17 @@
   },
   {
     "date": "2026-01-22",
-    "sport": "basketball",
-    "name": "2025-26 Topps Chrome Sapphire Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-chrome-sapphire-basketball"
-  },
-  {
-    "date": "2026-01-22",
     "sport": "other",
     "name": "2025 Topps Chrome Formula 1 Racing",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-formula-1"
   },
   {
-    "date": "2026-01-21",
-    "sport": "other",
-    "name": "2025 Upper Deck Grateful Dead 60 Years So Far",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-grateful-dead"
+    "date": "2026-01-22",
+    "sport": "basketball",
+    "name": "2025-26 Topps Chrome Sapphire Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-chrome-sapphire-basketball"
   },
   {
     "date": "2026-01-21",
@@ -873,6 +887,13 @@
     "name": "2025-26 Upper Deck Chicago Blackhawks Centennial Hockey",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/2025-26-upper-deck-chicago-blackhawks-centennial"
+  },
+  {
+    "date": "2026-01-21",
+    "sport": "other",
+    "name": "2025 Upper Deck Grateful Dead 60 Years So Far",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/upper-deck-grateful-dead"
   },
   {
     "date": "2026-01-16",
@@ -883,17 +904,17 @@
   },
   {
     "date": "2026-01-16",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck PWHL Showcase Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-pwhl-showcase-hockey"
-  },
-  {
-    "date": "2026-01-16",
     "sport": "other",
     "name": "2025 Topps Chrome Sapphire Marvel Studios",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-marvel-studios"
+  },
+  {
+    "date": "2026-01-16",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck PWHL Showcase Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-pwhl-showcase-hockey"
   },
   {
     "date": "2026-01-15",
@@ -925,17 +946,17 @@
   },
   {
     "date": "2026-01-14",
-    "sport": "baseball",
-    "name": "2025 Panini Select Baseball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-select-baseball"
-  },
-  {
-    "date": "2026-01-14",
     "sport": "hockey",
     "name": "2025-26 Upper Deck Allure Hockey",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/2025-26-upper-deck-allure-hockey"
+  },
+  {
+    "date": "2026-01-14",
+    "sport": "baseball",
+    "name": "2025 Panini Select Baseball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-select-baseball"
   },
   {
     "date": "2026-01-14",
@@ -946,13 +967,6 @@
   },
   {
     "date": "2026-01-07",
-    "sport": "other",
-    "name": "2025 Topps Pixar Gold",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-pixar-gold"
-  },
-  {
-    "date": "2026-01-07",
     "sport": "football",
     "name": "2025 Panini Immaculate Collection Football",
     "brand": "Panini",
@@ -960,10 +974,10 @@
   },
   {
     "date": "2026-01-07",
-    "sport": "baseball",
-    "name": "2025 Topps Allen & Ginter X Baseball",
+    "sport": "other",
+    "name": "2025 Topps Pixar Gold",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-allen-ginter-x-baseball"
+    "url": "https://www.checklistinsider.com/2025-topps-pixar-gold"
   },
   {
     "date": "2026-01-07",
@@ -971,6 +985,13 @@
     "name": "2025 Topps Chrome Update Sapphire Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-update-sapphire-baseball"
+  },
+  {
+    "date": "2026-01-07",
+    "sport": "baseball",
+    "name": "2025 Topps Allen & Ginter X Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-allen-ginter-x-baseball"
   },
   {
     "date": "2026-01-07",
@@ -1023,13 +1044,6 @@
   },
   {
     "date": "2025-12-23",
-    "sport": "other",
-    "name": "2025 Topps Chrome Marvel Studios",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-marvel-studios"
-  },
-  {
-    "date": "2025-12-23",
     "sport": "basketball",
     "name": "2025 Panini Impeccable WNBA Basketball",
     "brand": "Panini",
@@ -1037,10 +1051,10 @@
   },
   {
     "date": "2025-12-23",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Rookie Debut Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-rookie-debut-hockey"
+    "sport": "baseball",
+    "name": "2025 Topps Black & White Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-black-white-baseball"
   },
   {
     "date": "2025-12-23",
@@ -1051,10 +1065,17 @@
   },
   {
     "date": "2025-12-23",
-    "sport": "baseball",
-    "name": "2025 Topps Black & White Baseball",
+    "sport": "other",
+    "name": "2025 Topps Chrome Marvel Studios",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-black-white-baseball"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-marvel-studios"
+  },
+  {
+    "date": "2025-12-23",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Rookie Debut Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-rookie-debut-hockey"
   },
   {
     "date": "2025-12-19",
@@ -1072,24 +1093,24 @@
   },
   {
     "date": "2025-12-19",
-    "sport": "football",
-    "name": "2025 Panini Phoenix Factory Set Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-phoenix-factory-set-football"
-  },
-  {
-    "date": "2025-12-19",
     "sport": "other",
     "name": "2024-25 Topps Merlin UEFA Club Competitions Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2024-25-topps-merlin-uefa"
   },
   {
+    "date": "2025-12-19",
+    "sport": "football",
+    "name": "2025 Panini Phoenix Factory Set Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-phoenix-factory-set-football"
+  },
+  {
     "date": "2025-12-18",
     "sport": "other",
-    "name": "2024-25 Topps Definitive Collection UEFA Club Competitions Soccer",
+    "name": "2025 Topps Chrome Labubu 10th Anniversary",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-definitive-collection-uefa"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-labubu"
   },
   {
     "date": "2025-12-18",
@@ -1101,23 +1122,9 @@
   {
     "date": "2025-12-18",
     "sport": "other",
-    "name": "2025 Topps Chrome Labubu 10th Anniversary",
+    "name": "2024-25 Topps Definitive Collection UEFA Club Competitions Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-labubu"
-  },
-  {
-    "date": "2025-12-17",
-    "sport": "other",
-    "name": "2025 Panini National Treasures NASCAR Racing",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-national-treasures-nascar"
-  },
-  {
-    "date": "2025-12-17",
-    "sport": "baseball",
-    "name": "2025 Topps Heritage High Number Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-heritage-high-number-baseball"
+    "url": "https://www.checklistinsider.com/2024-25-topps-definitive-collection-uefa"
   },
   {
     "date": "2025-12-17",
@@ -1132,6 +1139,20 @@
     "name": "2025 Topps Cosmic Chrome Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-cosmic-chrome-baseball"
+  },
+  {
+    "date": "2025-12-17",
+    "sport": "other",
+    "name": "2025 Panini National Treasures NASCAR Racing",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-national-treasures-nascar"
+  },
+  {
+    "date": "2025-12-17",
+    "sport": "baseball",
+    "name": "2025 Topps Heritage High Number Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-heritage-high-number-baseball"
   },
   {
     "date": "2025-12-14",
@@ -1149,24 +1170,17 @@
   },
   {
     "date": "2025-12-11",
-    "sport": "hockey",
-    "name": "2026 Upper Deck USA Hockey Showcase",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2026-upper-deck-usa-hockey-showcase"
-  },
-  {
-    "date": "2025-12-11",
     "sport": "other",
     "name": "2025 Topps Eccellenza Formula 1 Racing",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-eccellenza-formula-1"
   },
   {
-    "date": "2025-12-10",
-    "sport": "other",
-    "name": "2025 Rittenhouse Game of Thrones The Great Houses",
-    "brand": "Rittenhouse",
-    "url": "https://www.checklistinsider.com/2025-rittenhouse-game-of-thrones-the-great-houses"
+    "date": "2025-12-11",
+    "sport": "hockey",
+    "name": "2026 Upper Deck USA Hockey Showcase",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2026-upper-deck-usa-hockey-showcase"
   },
   {
     "date": "2025-12-10",
@@ -1181,6 +1195,13 @@
     "name": "2025 Topps Chrome Update Series Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-update-series-baseball"
+  },
+  {
+    "date": "2025-12-10",
+    "sport": "other",
+    "name": "2025 Rittenhouse Game of Thrones The Great Houses",
+    "brand": "Rittenhouse",
+    "url": "https://www.checklistinsider.com/2025-rittenhouse-game-of-thrones-the-great-houses"
   },
   {
     "date": "2025-12-09",
@@ -1226,17 +1247,17 @@
   },
   {
     "date": "2025-12-03",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck The Cup Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-the-cup-hockey"
-  },
-  {
-    "date": "2025-12-03",
     "sport": "baseball",
     "name": "2025 Topps Allen & Ginter Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-allen-ginter-baseball"
+  },
+  {
+    "date": "2025-12-03",
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck The Cup Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2024-25-upper-deck-the-cup-hockey"
   },
   {
     "date": "2025-11-28",
@@ -1254,6 +1275,13 @@
   },
   {
     "date": "2025-11-26",
+    "sport": "other",
+    "name": "2025 Panini Minecraft Special Edition",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-minecraft"
+  },
+  {
+    "date": "2025-11-26",
     "sport": "football",
     "name": "2025 Bowman University Chrome Sapphire Football",
     "brand": "Bowman",
@@ -1262,9 +1290,9 @@
   {
     "date": "2025-11-26",
     "sport": "other",
-    "name": "2025 Panini Minecraft Special Edition",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-minecraft"
+    "name": "2025 Topps WWE X Bape Wrestling",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-wwe-x-bape"
   },
   {
     "date": "2025-11-26",
@@ -1272,13 +1300,6 @@
     "name": "2025-26 Topps FC Bayern München Team Set Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-fc-bayern-munchen-team-set"
-  },
-  {
-    "date": "2025-11-26",
-    "sport": "other",
-    "name": "2025 Topps WWE X Bape Wrestling",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-wwe-x-bape"
   },
   {
     "date": "2025-11-24",
@@ -1303,6 +1324,20 @@
   },
   {
     "date": "2025-11-19",
+    "sport": "wrestling",
+    "name": "2025 SP Game Used AEW Wrestling",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-sp-game-used-aew-wrestling"
+  },
+  {
+    "date": "2025-11-19",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Black Diamond Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-black-diamond-hockey"
+  },
+  {
+    "date": "2025-11-19",
     "sport": "football",
     "name": "2025 Donruss Football Complete Factory Set",
     "brand": "Donruss",
@@ -1314,13 +1349,6 @@
     "name": "2025 Panini National Treasures Baseball",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-national-treasures-baseball"
-  },
-  {
-    "date": "2025-11-19",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Black Diamond Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-black-diamond-hockey"
   },
   {
     "date": "2025-11-19",
@@ -1337,25 +1365,11 @@
     "url": "https://www.checklistinsider.com/2024-25-fleer-ultra-hockey"
   },
   {
-    "date": "2025-11-19",
-    "sport": "wrestling",
-    "name": "2025 SP Game Used AEW Wrestling",
+    "date": "2025-11-12",
+    "sport": "other",
+    "name": "2025 Skybox Metal Universe Batman",
     "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-sp-game-used-aew-wrestling"
-  },
-  {
-    "date": "2025-11-12",
-    "sport": "football",
-    "name": "2025 Panini Absolute Countdown Calendar Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-absolute-countdown-calendar-football"
-  },
-  {
-    "date": "2025-11-12",
-    "sport": "baseball",
-    "name": "2025 Topps Pro Debut Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-pro-debut-baseball"
+    "url": "https://www.checklistinsider.com/2025-skybox-metal-universe-batman"
   },
   {
     "date": "2025-11-12",
@@ -1366,6 +1380,13 @@
   },
   {
     "date": "2025-11-12",
+    "sport": "baseball",
+    "name": "2025 Topps Pro Debut Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-pro-debut-baseball"
+  },
+  {
+    "date": "2025-11-12",
     "sport": "football",
     "name": "2025 Panini Phoenix Football",
     "brand": "Panini",
@@ -1373,10 +1394,10 @@
   },
   {
     "date": "2025-11-12",
-    "sport": "other",
-    "name": "2025 Skybox Metal Universe Batman",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-skybox-metal-universe-batman"
+    "sport": "football",
+    "name": "2025 Panini Absolute Countdown Calendar Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-absolute-countdown-calendar-football"
   },
   {
     "date": "2025-11-11",
@@ -1401,6 +1422,13 @@
   },
   {
     "date": "2025-11-07",
+    "sport": "football",
+    "name": "2025 Panini Mosaic Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-mosaic-football"
+  },
+  {
+    "date": "2025-11-07",
     "sport": "other",
     "name": "2025 Topps Finest UFC",
     "brand": "Topps",
@@ -1412,13 +1440,6 @@
     "name": "2025 Topps Chrome Sapphire SpongeBob SquarePants 25th",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-spongebob"
-  },
-  {
-    "date": "2025-11-07",
-    "sport": "football",
-    "name": "2025 Panini Mosaic Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-mosaic-football"
   },
   {
     "date": "2025-11-06",
@@ -1443,13 +1464,6 @@
   },
   {
     "date": "2025-10-31",
-    "sport": "other",
-    "name": "2025 Topps Disney Mint",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-disney-mint"
-  },
-  {
-    "date": "2025-10-31",
     "sport": "football",
     "name": "2025 Panini Absolute Football",
     "brand": "Panini",
@@ -1470,11 +1484,11 @@
     "url": "https://www.checklistinsider.com/2024-25-topps-uefa-japan-edition"
   },
   {
-    "date": "2025-10-30",
-    "sport": "mma",
-    "name": "2025 Upper Deck Creature Commandos",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-creature-commandos"
+    "date": "2025-10-31",
+    "sport": "other",
+    "name": "2025 Topps Disney Mint",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-disney-mint"
   },
   {
     "date": "2025-10-30",
@@ -1482,6 +1496,13 @@
     "name": "2025-26 Topps Holiday Basketball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-holiday-basketball"
+  },
+  {
+    "date": "2025-10-30",
+    "sport": "mma",
+    "name": "2025 Upper Deck Creature Commandos",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-creature-commandos"
   },
   {
     "date": "2025-10-29",
@@ -1534,17 +1555,17 @@
   },
   {
     "date": "2025-10-22",
-    "sport": "other",
-    "name": "2025 Topps Chrome Sapphire Disney",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-disney"
-  },
-  {
-    "date": "2025-10-22",
     "sport": "football",
     "name": "2025 Panini Impeccable Football",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-impeccable-football"
+  },
+  {
+    "date": "2025-10-22",
+    "sport": "baseball",
+    "name": "2025 Topps Holiday Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-holiday-baseball"
   },
   {
     "date": "2025-10-22",
@@ -1555,10 +1576,10 @@
   },
   {
     "date": "2025-10-22",
-    "sport": "baseball",
-    "name": "2025 Topps Holiday Baseball",
+    "sport": "other",
+    "name": "2025 Topps Chrome Sapphire Disney",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-holiday-baseball"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-disney"
   },
   {
     "date": "2025-10-16",
@@ -1566,20 +1587,6 @@
     "name": "2025 Topps Wacky Packages Halloween",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-wacky-packages-halloween"
-  },
-  {
-    "date": "2025-10-15",
-    "sport": "baseball",
-    "name": "2025 Bowman Chrome Sapphire Baseball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-bowman-chrome-sapphire-baseball"
-  },
-  {
-    "date": "2025-10-15",
-    "sport": "other",
-    "name": "2025 Topps Disney Wonder",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-disney-wonder"
   },
   {
     "date": "2025-10-15",
@@ -1594,6 +1601,20 @@
     "name": "2025 SP Game Used CFL Football",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2025-sp-game-used-cfl-football"
+  },
+  {
+    "date": "2025-10-15",
+    "sport": "other",
+    "name": "2025 Topps Disney Wonder",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-disney-wonder"
+  },
+  {
+    "date": "2025-10-15",
+    "sport": "baseball",
+    "name": "2025 Bowman Chrome Sapphire Baseball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-bowman-chrome-sapphire-baseball"
   },
   {
     "date": "2025-10-10",
@@ -1625,24 +1646,17 @@
   },
   {
     "date": "2025-10-08",
-    "sport": "football",
-    "name": "2025 Panini Black Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-black-football"
-  },
-  {
-    "date": "2025-10-08",
     "sport": "baseball",
     "name": "2025 Bowman Chrome Mega Box Baseball",
     "brand": "Bowman",
     "url": "https://www.checklistinsider.com/2025-bowman-chrome-mega-box-baseball"
   },
   {
-    "date": "2025-10-06",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Tim Hortons Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-tim-hortons-hockey"
+    "date": "2025-10-08",
+    "sport": "football",
+    "name": "2025 Panini Black Football",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-black-football"
   },
   {
     "date": "2025-10-06",
@@ -1652,11 +1666,11 @@
     "url": "https://www.checklistinsider.com/2025-panini-revolution-football"
   },
   {
-    "date": "2025-10-03",
-    "sport": "soccer",
-    "name": "2025 Panini Absolute K League Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-absolute-k-league-soccer"
+    "date": "2025-10-06",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Tim Hortons Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-tim-hortons-hockey"
   },
   {
     "date": "2025-10-03",
@@ -1666,11 +1680,18 @@
     "url": "https://www.checklistinsider.com/2025-panini-turn-four-nascar-racing"
   },
   {
+    "date": "2025-10-03",
+    "sport": "soccer",
+    "name": "2025 Panini Absolute K League Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-absolute-k-league-soccer"
+  },
+  {
     "date": "2025-10-01",
-    "sport": "other",
-    "name": "2025 Topps Chrome SpongeBob SquarePants 25th",
+    "sport": "tennis",
+    "name": "2025 Topps Triumphant Tennis",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-spongebob-squarepants"
+    "url": "https://www.checklistinsider.com/2025-topps-triumphant-tennis"
   },
   {
     "date": "2025-10-01",
@@ -1682,23 +1703,16 @@
   {
     "date": "2025-10-01",
     "sport": "other",
-    "name": "2025 Topps Focus Argentina Soccer",
+    "name": "2025 Topps Chrome SpongeBob SquarePants 25th",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-focus-argentina"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-spongebob-squarepants"
   },
   {
     "date": "2025-10-01",
-    "sport": "tennis",
-    "name": "2025 Topps Triumphant Tennis",
+    "sport": "other",
+    "name": "2025 Topps Focus Argentina Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-triumphant-tennis"
-  },
-  {
-    "date": "2025-09-29",
-    "sport": "basketball",
-    "name": "2024-25 Panini Eminence Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-eminence-basketball"
+    "url": "https://www.checklistinsider.com/2025-topps-focus-argentina"
   },
   {
     "date": "2025-09-29",
@@ -1708,18 +1722,11 @@
     "url": "https://www.checklistinsider.com/2024-25-panini-prizm-black-basketball"
   },
   {
-    "date": "2025-09-26",
+    "date": "2025-09-29",
     "sport": "basketball",
-    "name": "2024-25 Panini Flawless Basketball",
+    "name": "2024-25 Panini Eminence Basketball",
     "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-flawless-basketball"
-  },
-  {
-    "date": "2025-09-26",
-    "sport": "other",
-    "name": "2025 Topps Finest WWE Wrestling",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-finest-wwe"
+    "url": "https://www.checklistinsider.com/2024-25-panini-eminence-basketball"
   },
   {
     "date": "2025-09-26",
@@ -1731,9 +1738,30 @@
   {
     "date": "2025-09-26",
     "sport": "other",
+    "name": "2025 Topps Finest WWE Wrestling",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-finest-wwe"
+  },
+  {
+    "date": "2025-09-26",
+    "sport": "other",
     "name": "2024-25 Panini Ohio State University NIL",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-ohio-state-university"
+  },
+  {
+    "date": "2025-09-26",
+    "sport": "basketball",
+    "name": "2024-25 Panini Flawless Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-flawless-basketball"
+  },
+  {
+    "date": "2025-09-25",
+    "sport": "basketball",
+    "name": "2023-24 Topps Royalty Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2023-24-topps-royalty-basketball"
   },
   {
     "date": "2025-09-25",
@@ -1743,11 +1771,11 @@
     "url": "https://www.checklistinsider.com/2025-fanatics-under-wraps-emanate-nfl"
   },
   {
-    "date": "2025-09-25",
-    "sport": "basketball",
-    "name": "2023-24 Topps Royalty Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2023-24-topps-royalty-basketball"
+    "date": "2025-09-24",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Artifacts Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-artifacts-hockey"
   },
   {
     "date": "2025-09-24",
@@ -1769,13 +1797,6 @@
     "name": "2025 Topps Chrome Disney",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-disney"
-  },
-  {
-    "date": "2025-09-24",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Artifacts Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-artifacts-hockey"
   },
   {
     "date": "2025-09-23",
@@ -1807,6 +1828,27 @@
   },
   {
     "date": "2025-09-17",
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck Stature Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2024-25-upper-deck-stature-hockey"
+  },
+  {
+    "date": "2025-09-17",
+    "sport": "football",
+    "name": "2025 Upper Deck CFL Football",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-cfl-football"
+  },
+  {
+    "date": "2025-09-17",
+    "sport": "football",
+    "name": "2025 Donruss Football",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2025-donruss-football"
+  },
+  {
+    "date": "2025-09-17",
     "sport": "basketball",
     "name": "2024-25 Panini One and One Basketball",
     "brand": "Panini",
@@ -1825,27 +1867,6 @@
     "name": "2025 Topps Chrome Sapphire Star Wars",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-star-wars"
-  },
-  {
-    "date": "2025-09-17",
-    "sport": "football",
-    "name": "2025 Upper Deck CFL Football",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-cfl-football"
-  },
-  {
-    "date": "2025-09-17",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck Stature Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-stature-hockey"
-  },
-  {
-    "date": "2025-09-17",
-    "sport": "football",
-    "name": "2025 Donruss Football",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2025-donruss-football"
   },
   {
     "date": "2025-09-12",
@@ -1885,6 +1906,13 @@
   {
     "date": "2025-09-10",
     "sport": "other",
+    "name": "2025 Upper Deck Allure SE Multi-Sport",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-allure-se"
+  },
+  {
+    "date": "2025-09-10",
+    "sport": "other",
     "name": "2025 Topps Marvel Comic Book Heroes 1975 Golden Anniversary",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-marvel-comic-book-heroes-1975"
@@ -1895,13 +1923,6 @@
     "name": "2025 Topps Tier One Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-tier-one-baseball"
-  },
-  {
-    "date": "2025-09-10",
-    "sport": "other",
-    "name": "2025 Upper Deck Allure SE Multi-Sport",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-allure-se"
   },
   {
     "date": "2025-09-05",
@@ -1919,17 +1940,17 @@
   },
   {
     "date": "2025-09-05",
-    "sport": "basketball",
-    "name": "2024-25 Panini Haunted Hoops Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-haunted-hoops-basketball"
-  },
-  {
-    "date": "2025-09-05",
     "sport": "football",
     "name": "2025 Score-A-Treat Football",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2025-score-a-treat-football"
+  },
+  {
+    "date": "2025-09-05",
+    "sport": "basketball",
+    "name": "2024-25 Panini Haunted Hoops Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-haunted-hoops-basketball"
   },
   {
     "date": "2025-09-04",
@@ -1989,6 +2010,13 @@
   },
   {
     "date": "2025-08-27",
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck Clear Cut Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2024-25-upper-deck-clear-cut-hockey"
+  },
+  {
+    "date": "2025-08-27",
     "sport": "baseball",
     "name": "2025 Panini Boys of Summer Baseball",
     "brand": "Panini",
@@ -2004,9 +2032,9 @@
   {
     "date": "2025-08-27",
     "sport": "other",
-    "name": "2024 Topps GPK Battle of the Bands Green Day",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/topps-gpk-battle-of-the-bands"
+    "name": "2025 Upper Deck James Bond No Time to Die",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/upper-deck-james-bond-no-time-to-die"
   },
   {
     "date": "2025-08-27",
@@ -2017,31 +2045,17 @@
   },
   {
     "date": "2025-08-27",
+    "sport": "other",
+    "name": "2024 Topps GPK Battle of the Bands Green Day",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/topps-gpk-battle-of-the-bands"
+  },
+  {
+    "date": "2025-08-27",
     "sport": "baseball",
     "name": "2025 Topps Chrome Sapphire Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-baseball"
-  },
-  {
-    "date": "2025-08-27",
-    "sport": "other",
-    "name": "2025 Upper Deck James Bond No Time to Die",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-james-bond-no-time-to-die"
-  },
-  {
-    "date": "2025-08-27",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck Clear Cut Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-clear-cut-hockey"
-  },
-  {
-    "date": "2025-08-22",
-    "sport": "basketball",
-    "name": "2024-25 Topps Chrome NBL Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-nbl-basketball"
   },
   {
     "date": "2025-08-22",
@@ -2049,6 +2063,13 @@
     "name": "2025 Panini Prizm LIV Golf",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-prizm-liv-golf"
+  },
+  {
+    "date": "2025-08-22",
+    "sport": "basketball",
+    "name": "2024-25 Topps Chrome NBL Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-nbl-basketball"
   },
   {
     "date": "2025-08-22",
@@ -2073,6 +2094,13 @@
   },
   {
     "date": "2025-08-20",
+    "sport": "hockey",
+    "name": "2025 Upper Deck Team Canada Juniors Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-team-canada-juniors-hockey"
+  },
+  {
+    "date": "2025-08-20",
     "sport": "other",
     "name": "2025 Topps Chrome Star Wars",
     "brand": "Topps",
@@ -2086,11 +2114,11 @@
     "url": "https://www.checklistinsider.com/skybox-the-boys"
   },
   {
-    "date": "2025-08-20",
-    "sport": "hockey",
-    "name": "2025 Upper Deck Team Canada Juniors Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-team-canada-juniors-hockey"
+    "date": "2025-08-15",
+    "sport": "basketball",
+    "name": "2024-25 Panini National Treasures Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-national-treasures-basketball"
   },
   {
     "date": "2025-08-15",
@@ -2098,13 +2126,6 @@
     "name": "2025 Panini National Convention Gold Packs VIP",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-national-convention-gold-packs-vip"
-  },
-  {
-    "date": "2025-08-15",
-    "sport": "basketball",
-    "name": "2024-25 Panini National Treasures Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-national-treasures-basketball"
   },
   {
     "date": "2025-08-14",
@@ -2115,17 +2136,17 @@
   },
   {
     "date": "2025-08-13",
-    "sport": "other",
-    "name": "2025 Topps Marvel Mint",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-marvel-mint"
-  },
-  {
-    "date": "2025-08-13",
     "sport": "hockey",
     "name": "2024-25 SP Authentic Hockey",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2024-25-sp-authentic-hockey"
+  },
+  {
+    "date": "2025-08-13",
+    "sport": "other",
+    "name": "2025 Topps Marvel Mint",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-marvel-mint"
   },
   {
     "date": "2025-08-12",
@@ -2150,17 +2171,17 @@
   },
   {
     "date": "2025-08-06",
-    "sport": "baseball",
-    "name": "2025 Topps Baseball Complete Factory Set Exclusives",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-baseball-complete"
+    "sport": "other",
+    "name": "2025 Skybox Metal Universe AEW Wrestling",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-skybox-metal-universe-aew"
   },
   {
     "date": "2025-08-06",
-    "sport": "other",
-    "name": "2025 Topps Archives Signature Series Active Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-archives-signature-series-active"
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck PWHL Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/upper-deck-pwhl-hockey"
   },
   {
     "date": "2025-08-06",
@@ -2172,9 +2193,16 @@
   {
     "date": "2025-08-06",
     "sport": "other",
-    "name": "2025 Skybox Metal Universe AEW Wrestling",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-skybox-metal-universe-aew"
+    "name": "2025 Topps Archives Signature Series Active Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-archives-signature-series-active"
+  },
+  {
+    "date": "2025-08-06",
+    "sport": "baseball",
+    "name": "2025 Topps Baseball Complete Factory Set Exclusives",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-baseball-complete"
   },
   {
     "date": "2025-08-06",
@@ -2184,18 +2212,11 @@
     "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-marvel"
   },
   {
-    "date": "2025-08-06",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck PWHL Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-pwhl-hockey"
-  },
-  {
     "date": "2025-08-04",
-    "sport": "baseball",
-    "name": "2025 Topps Chrome LogoFractor Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-logofractor-baseball"
+    "sport": "other",
+    "name": "2024-25 Panini Eternity Lionesses England Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-eternity-lionesses-england"
   },
   {
     "date": "2025-08-04",
@@ -2206,17 +2227,10 @@
   },
   {
     "date": "2025-08-04",
-    "sport": "other",
-    "name": "2024-25 Panini Eternity Lionesses England Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-eternity-lionesses-england"
-  },
-  {
-    "date": "2025-07-31",
-    "sport": "other",
-    "name": "2024-25 Topps Chrome Sapphire Bundesliga Soccer",
+    "sport": "baseball",
+    "name": "2025 Topps Chrome LogoFractor Baseball",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-sapphire-bundesliga"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-logofractor-baseball"
   },
   {
     "date": "2025-07-31",
@@ -2233,11 +2247,18 @@
     "url": "https://www.checklistinsider.com/2025-topps-x-bob-ross-the-joy-of-baseball"
   },
   {
-    "date": "2025-07-30",
+    "date": "2025-07-31",
     "sport": "other",
-    "name": "2025 Upper Deck National Convention NSCC Wrapper Redemption",
+    "name": "2024-25 Topps Chrome Sapphire Bundesliga Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-sapphire-bundesliga"
+  },
+  {
+    "date": "2025-07-30",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck MVP Hockey",
     "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-national-convention"
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-mvp-hockey"
   },
   {
     "date": "2025-07-30",
@@ -2245,6 +2266,13 @@
     "name": "2025 Topps Worst of Garbage Pail Kids 40th Anniversary",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-garbage-pail-kids-40th"
+  },
+  {
+    "date": "2025-07-30",
+    "sport": "other",
+    "name": "2025 Upper Deck National Convention NSCC Wrapper Redemption",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-national-convention"
   },
   {
     "date": "2025-07-30",
@@ -2261,11 +2289,11 @@
     "url": "https://www.checklistinsider.com/2025-topps-national-convention-silver-packs-wrapper-redemption"
   },
   {
-    "date": "2025-07-30",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck MVP Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-mvp-hockey"
+    "date": "2025-07-25",
+    "sport": "basketball",
+    "name": "2024-25 Panini Noir Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-noir-basketball"
   },
   {
     "date": "2025-07-25",
@@ -2276,31 +2304,17 @@
   },
   {
     "date": "2025-07-25",
-    "sport": "other",
-    "name": "2025 Topps Chrome Sapphire UFC",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-ufc"
-  },
-  {
-    "date": "2025-07-25",
-    "sport": "basketball",
-    "name": "2024-25 Panini Noir Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-noir-basketball"
-  },
-  {
-    "date": "2025-07-25",
     "sport": "soccer",
     "name": "2024-25 Panini Obsidian Soccer",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2024-25-panini-obsidian-soccer"
   },
   {
-    "date": "2025-07-23",
+    "date": "2025-07-25",
     "sport": "other",
-    "name": "2024-25 Topps Reverence UEFA Club Competitions Soccer",
+    "name": "2025 Topps Chrome Sapphire UFC",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-reverence-uefa"
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-sapphire-ufc"
   },
   {
     "date": "2025-07-23",
@@ -2317,11 +2331,11 @@
     "url": "https://www.checklistinsider.com/2025-topps-chrome-baseball"
   },
   {
-    "date": "2025-07-22",
+    "date": "2025-07-23",
     "sport": "other",
-    "name": "2024-25 Topps PSG Champions d’Europe Soccer",
+    "name": "2024-25 Topps Reverence UEFA Club Competitions Soccer",
     "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-psg-champions-deurope"
+    "url": "https://www.checklistinsider.com/2024-25-topps-reverence-uefa"
   },
   {
     "date": "2025-07-22",
@@ -2329,6 +2343,13 @@
     "name": "2025 Topps MLS 30th Anniversary Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-mls-30th-anniversary"
+  },
+  {
+    "date": "2025-07-22",
+    "sport": "other",
+    "name": "2024-25 Topps PSG Champions d’Europe Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2024-25-topps-psg-champions-deurope"
   },
   {
     "date": "2025-07-18",
@@ -2343,41 +2364,6 @@
     "name": "2025 Fanatics Under Wraps Emanate MLB Autographed Photo Baseball",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2025-fanatics-under-wraps-emanate-mlb"
-  },
-  {
-    "date": "2025-07-16",
-    "sport": "other",
-    "name": "2025 Upper Deck The X-Files Government Conspiracies",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-upper-deck-the-x-files-government-conspiracies"
-  },
-  {
-    "date": "2025-07-16",
-    "sport": "basketball",
-    "name": "2024-25 Panini Crown Royale EuroLeague Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-crown-royale-euroleague-basketball"
-  },
-  {
-    "date": "2025-07-16",
-    "sport": "other",
-    "name": "2025 Topps Merlin UEFA Women’s Euro Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-merlin-uefa-womens-euro"
-  },
-  {
-    "date": "2025-07-16",
-    "sport": "other",
-    "name": "2025 Fleer Brilliants Superman",
-    "brand": "Fleer",
-    "url": "https://www.checklistinsider.com/fleer-brilliants-superman"
-  },
-  {
-    "date": "2025-07-16",
-    "sport": "basketball",
-    "name": "2024-25 Topps Chrome Sapphire Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-sapphire-basketball"
   },
   {
     "date": "2025-07-16",
@@ -2401,6 +2387,41 @@
     "url": "https://www.checklistinsider.com/2025-donruss-nascar-racing"
   },
   {
+    "date": "2025-07-16",
+    "sport": "basketball",
+    "name": "2024-25 Panini Crown Royale EuroLeague Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-crown-royale-euroleague-basketball"
+  },
+  {
+    "date": "2025-07-16",
+    "sport": "other",
+    "name": "2025 Upper Deck The X-Files Government Conspiracies",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-upper-deck-the-x-files-government-conspiracies"
+  },
+  {
+    "date": "2025-07-16",
+    "sport": "other",
+    "name": "2025 Fleer Brilliants Superman",
+    "brand": "Fleer",
+    "url": "https://www.checklistinsider.com/fleer-brilliants-superman"
+  },
+  {
+    "date": "2025-07-16",
+    "sport": "other",
+    "name": "2025 Topps Merlin UEFA Women’s Euro Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-merlin-uefa-womens-euro"
+  },
+  {
+    "date": "2025-07-16",
+    "sport": "basketball",
+    "name": "2024-25 Topps Chrome Sapphire Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-sapphire-basketball"
+  },
+  {
     "date": "2025-07-14",
     "sport": "basketball",
     "name": "2024-25 Panini PhotoGenic Basketball",
@@ -2409,17 +2430,17 @@
   },
   {
     "date": "2025-07-10",
-    "sport": "baseball",
-    "name": "2025 Topps Now All-Star Game Set Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-now-all-star-game-set-baseball"
-  },
-  {
-    "date": "2025-07-10",
     "sport": "other",
     "name": "2024-25 Topps Chrome Bundesliga Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2024-25-topps-chrome-bundesliga"
+  },
+  {
+    "date": "2025-07-10",
+    "sport": "baseball",
+    "name": "2025 Topps Now All-Star Game Set Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-now-all-star-game-set-baseball"
   },
   {
     "date": "2025-07-09",
@@ -2437,24 +2458,17 @@
   },
   {
     "date": "2025-07-03",
-    "sport": "hockey",
-    "name": "2023-24 Upper Deck Ovation Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2023-24-upper-deck-ovation-hockey"
-  },
-  {
-    "date": "2025-07-03",
     "sport": "football",
     "name": "2025 Score Football",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2025-score-football"
   },
   {
-    "date": "2025-07-02",
-    "sport": "other",
-    "name": "2025 Fleer Scooby Doo",
-    "brand": "Fleer",
-    "url": "https://www.checklistinsider.com/fleer-scooby-doo"
+    "date": "2025-07-03",
+    "sport": "hockey",
+    "name": "2023-24 Upper Deck Ovation Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2023-24-upper-deck-ovation-hockey"
   },
   {
     "date": "2025-07-02",
@@ -2462,6 +2476,13 @@
     "name": "2024-25 O-Pee-Chee Platinum Hockey",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2024-25-o-pee-chee-platinum-hockey"
+  },
+  {
+    "date": "2025-07-02",
+    "sport": "other",
+    "name": "2025 Fleer Scooby Doo",
+    "brand": "Fleer",
+    "url": "https://www.checklistinsider.com/fleer-scooby-doo"
   },
   {
     "date": "2025-07-01",
@@ -2508,13 +2529,6 @@
   {
     "date": "2025-06-20",
     "sport": "baseball",
-    "name": "2025 Topps Fanatics Fest NYC Series 2 Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-fanatics-fest-nyc-series-2-baseball"
-  },
-  {
-    "date": "2025-06-20",
-    "sport": "baseball",
     "name": "2025 Topps Chrome X Cactus Jack Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-cosmic-chrome-cactus-jack-baseball"
@@ -2525,6 +2539,13 @@
     "name": "2025 Topps Formula 1 Fanatics Fest NYC Racing",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-formula-1-fanatics-fest-nyc-racing"
+  },
+  {
+    "date": "2025-06-20",
+    "sport": "baseball",
+    "name": "2025 Topps Fanatics Fest NYC Series 2 Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-fanatics-fest-nyc-series-2-baseball"
   },
   {
     "date": "2025-06-20",
@@ -2549,6 +2570,20 @@
   },
   {
     "date": "2025-06-18",
+    "sport": "other",
+    "name": "2025 Upper Deck World of Sports Volume 1",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports"
+  },
+  {
+    "date": "2025-06-18",
+    "sport": "baseball",
+    "name": "2025 Donruss Baseball",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2025-donruss-baseball"
+  },
+  {
+    "date": "2025-06-18",
     "sport": "football",
     "name": "2024 Panini Contenders Optic Football",
     "brand": "Panini",
@@ -2569,20 +2604,6 @@
     "url": "https://www.checklistinsider.com/2024-25-panini-select-basketball"
   },
   {
-    "date": "2025-06-18",
-    "sport": "other",
-    "name": "2025 Upper Deck World of Sports Volume 1",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports"
-  },
-  {
-    "date": "2025-06-18",
-    "sport": "baseball",
-    "name": "2025 Donruss Baseball",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2025-donruss-baseball"
-  },
-  {
     "date": "2025-06-17",
     "sport": "other",
     "name": "2025 Topps Leyendas Argentinas Soccer",
@@ -2598,17 +2619,24 @@
   },
   {
     "date": "2025-06-12",
+    "sport": "basketball",
+    "name": "2024-25 Topps Chrome Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-basketball"
+  },
+  {
+    "date": "2025-06-12",
     "sport": "other",
     "name": "2024-25 Topps Chrome Sapphire UEFA Club Competitions Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2024-25-topps-chrome-sapphire-uefa"
   },
   {
-    "date": "2025-06-12",
-    "sport": "basketball",
-    "name": "2024-25 Topps Chrome Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-basketball"
+    "date": "2025-06-11",
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck Ice Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2024-25-upper-deck-ice-hockey"
   },
   {
     "date": "2025-06-11",
@@ -2625,11 +2653,11 @@
     "url": "https://www.checklistinsider.com/2025-topps-series-2-baseball"
   },
   {
-    "date": "2025-06-11",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck Ice Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-ice-hockey"
+    "date": "2025-06-06",
+    "sport": "soccer",
+    "name": "2024-25 Panini Select FIFA Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-select-fifa-soccer"
   },
   {
     "date": "2025-06-06",
@@ -2639,11 +2667,11 @@
     "url": "https://www.checklistinsider.com/panini-uconn-basketball"
   },
   {
-    "date": "2025-06-06",
-    "sport": "soccer",
-    "name": "2024-25 Panini Select FIFA Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-select-fifa-soccer"
+    "date": "2025-06-04",
+    "sport": "hockey",
+    "name": "2023-24 Upper Deck The Cup Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2023-24-upper-deck-the-cup-hockey"
   },
   {
     "date": "2025-06-04",
@@ -2651,13 +2679,6 @@
     "name": "2025 Topps Sterling Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-sterling-baseball"
-  },
-  {
-    "date": "2025-06-04",
-    "sport": "hockey",
-    "name": "2023-24 Upper Deck The Cup Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2023-24-upper-deck-the-cup-hockey"
   },
   {
     "date": "2025-06-04",
@@ -2689,24 +2710,17 @@
   },
   {
     "date": "2025-05-29",
-    "sport": "basketball",
-    "name": "2024-25 Bowman University Best Basketball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2024-25-bowman-university-best-basketball"
-  },
-  {
-    "date": "2025-05-29",
     "sport": "hockey",
     "name": "2024-25 Upper Deck Extended Series Hockey",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/2024-25-upper-deck-extended-series-hockey"
   },
   {
-    "date": "2025-05-28",
-    "sport": "baseball",
-    "name": "2025 Bowman Mega Box Baseball",
+    "date": "2025-05-29",
+    "sport": "basketball",
+    "name": "2024-25 Bowman University Best Basketball",
     "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-bowman-mega-box-baseball"
+    "url": "https://www.checklistinsider.com/2024-25-bowman-university-best-basketball"
   },
   {
     "date": "2025-05-28",
@@ -2716,11 +2730,11 @@
     "url": "https://www.checklistinsider.com/2024-panini-select-football"
   },
   {
-    "date": "2025-05-23",
-    "sport": "basketball",
-    "name": "2024-25 Panini Prizm EuroLeague Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-prizm-euroleague-basketball"
+    "date": "2025-05-28",
+    "sport": "baseball",
+    "name": "2025 Bowman Mega Box Baseball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-bowman-mega-box-baseball"
   },
   {
     "date": "2025-05-23",
@@ -2737,11 +2751,18 @@
     "url": "https://www.checklistinsider.com/2024-25-panini-select-serie-a-soccer"
   },
   {
-    "date": "2025-05-22",
+    "date": "2025-05-23",
     "sport": "basketball",
-    "name": "2024-25 Panini Prizm Deca Basketball",
+    "name": "2024-25 Panini Prizm EuroLeague Basketball",
     "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-prizm-deca-basketball"
+    "url": "https://www.checklistinsider.com/2024-25-panini-prizm-euroleague-basketball"
+  },
+  {
+    "date": "2025-05-22",
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck CHL Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2024-25-upper-deck-chl-hockey"
   },
   {
     "date": "2025-05-22",
@@ -2752,17 +2773,17 @@
   },
   {
     "date": "2025-05-22",
+    "sport": "basketball",
+    "name": "2024-25 Panini Prizm Deca Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2024-25-panini-prizm-deca-basketball"
+  },
+  {
+    "date": "2025-05-22",
     "sport": "baseball",
     "name": "2025 Topps Dynamic Duals Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-dynamic-duals-baseball"
-  },
-  {
-    "date": "2025-05-22",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck CHL Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-chl-hockey"
   },
   {
     "date": "2025-05-21",
@@ -2777,27 +2798,6 @@
     "name": "2024 Clearly Donruss Football",
     "brand": "Donruss",
     "url": "https://www.checklistinsider.com/2024-clearly-donruss-football"
-  },
-  {
-    "date": "2025-05-16",
-    "sport": "football",
-    "name": "2024 Panini Totally Certified Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-panini-totally-certified-football"
-  },
-  {
-    "date": "2025-05-16",
-    "sport": "football",
-    "name": "2024 Topps Signature Class Football",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-topps-signature-class-football"
-  },
-  {
-    "date": "2025-05-16",
-    "sport": "soccer",
-    "name": "2024-25 Panini Select La Liga Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-select-la-liga-soccer"
   },
   {
     "date": "2025-05-16",
