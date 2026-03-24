@@ -112,6 +112,13 @@
     "url": "https://www.checklistinsider.com/2025-26-panini-prizm-fifa-soccer"
   },
   {
+    "date": "2026-04-24",
+    "sport": "tennis",
+    "name": "2026 Topps Graphite Tennis",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-graphite-tennis"
+  },
+  {
     "date": "2026-04-22",
     "sport": "hockey",
     "name": "2025-26 Skybox Metal Universe Hockey",
@@ -282,7 +289,7 @@
   {
     "date": "2026-03-23",
     "sport": "basketball",
-    "name": "2026 Bowman U Now March Madness Basketball",
+    "name": "2025-26 Bowman U Now March Madness Basketball",
     "brand": "Bowman",
     "url": "https://www.checklistinsider.com/bowman-u-now-march-madness-basketball"
   },
@@ -324,7 +331,7 @@
   {
     "date": "2026-03-18",
     "sport": "other",
-    "name": "2026 Upper Deck Batman The Animated Series",
+    "name": "2025 Upper Deck Batman The Animated Series",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/upper-deck-batman-the-animated-series"
   },
@@ -2793,28 +2800,21 @@
     "url": "https://www.checklistinsider.com/2024-25-panini-prizm-euroleague-basketball"
   },
   {
-    "date": "2025-05-22",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck CHL Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-chl-hockey"
-  },
-  {
-    "date": "2025-05-22",
+    "date": "2025-05-23",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-05-22",
+    "date": "2025-05-23",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-05-22",
+    "date": "2025-05-23",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
