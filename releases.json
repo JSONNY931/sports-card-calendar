@@ -119,6 +119,20 @@
     "url": "https://www.checklistinsider.com/2026-topps-graphite-tennis"
   },
   {
+    "date": "2026-04-23",
+    "sport": "basketball",
+    "name": "2025-26 Bowman Basketball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+  },
+  {
+    "date": "2026-04-23",
+    "sport": "other",
+    "name": "2025-26 Topps Finest Premier League Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/topps-finest-premier-league"
+  },
+  {
     "date": "2026-04-22",
     "sport": "hockey",
     "name": "2025-26 Skybox Metal Universe Hockey",
@@ -285,6 +299,13 @@
     "name": "2026 Topps Collectors Kit",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2026-topps-collector-kit"
+  },
+  {
+    "date": "2026-03-25",
+    "sport": "other",
+    "name": "2025-26 Topps Gold UEFA Club Competitions Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-gold-uefa"
   },
   {
     "date": "2026-03-23",
@@ -2779,42 +2800,21 @@
     "url": "https://www.checklistinsider.com/2025-bowman-mega-box-baseball"
   },
   {
-    "date": "2025-05-23",
-    "sport": "basketball",
-    "name": "2024-25 Panini Revolution Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-revolution-basketball"
-  },
-  {
-    "date": "2025-05-23",
-    "sport": "soccer",
-    "name": "2024-25 Panini Select Serie A Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-select-serie-a-soccer"
-  },
-  {
-    "date": "2025-05-23",
-    "sport": "basketball",
-    "name": "2024-25 Panini Prizm EuroLeague Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-prizm-euroleague-basketball"
-  },
-  {
-    "date": "2025-05-23",
+    "date": "2025-05-28",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-05-23",
+    "date": "2025-05-28",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-05-23",
+    "date": "2025-05-28",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
