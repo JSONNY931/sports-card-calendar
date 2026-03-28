@@ -70,6 +70,13 @@
     "url": "https://www.checklistinsider.com/2025-26-panini-noir-road-to-fifa-world-cup"
   },
   {
+    "date": "2026-05-01",
+    "sport": "basketball",
+    "name": "2025-26 Topps Cosmic Chrome Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-cosmic-chrome-basketball"
+  },
+  {
     "date": "2026-04-29",
     "sport": "basketball",
     "name": "2025 Panini Select WNBA Basketball",
@@ -127,13 +134,6 @@
   },
   {
     "date": "2026-04-23",
-    "sport": "basketball",
-    "name": "2025-26 Bowman Basketball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
-  },
-  {
-    "date": "2026-04-23",
     "sport": "other",
     "name": "2025-26 Topps Finest Premier League Soccer",
     "brand": "Topps",
@@ -152,6 +152,13 @@
     "name": "2026 Donruss NASCAR Racing",
     "brand": "Donruss",
     "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
+  },
+  {
+    "date": "2026-04-22",
+    "sport": "basketball",
+    "name": "2025-26 Bowman Basketball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
   },
   {
     "date": "2026-04-15",
@@ -257,6 +264,13 @@
     "name": "2025 Topps Chrome Deadpool",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/topps-chrome-deadpool"
+  },
+  {
+    "date": "2026-03-30",
+    "sport": "other",
+    "name": "2025-26 Topps Match Attax Madness UEFA Champions League Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-match-attax-madness-uefa"
   },
   {
     "date": "2026-03-27",
@@ -2787,34 +2801,20 @@
   },
   {
     "date": "2025-05-29",
-    "sport": "basketball",
-    "name": "2024-25 Bowman University Best Basketball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2024-25-bowman-university-best-basketball"
-  },
-  {
-    "date": "2025-05-28",
-    "sport": "football",
-    "name": "2024 Panini Select Football",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-panini-select-football"
-  },
-  {
-    "date": "2025-05-28",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-05-28",
+    "date": "2025-05-29",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-05-28",
+    "date": "2025-05-29",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
