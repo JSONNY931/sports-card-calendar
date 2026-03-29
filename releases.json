@@ -162,6 +162,13 @@
   },
   {
     "date": "2026-04-15",
+    "sport": "hockey",
+    "name": "2025-26 Flair Hockey",
+    "brand": "Unknown",
+    "url": "https://www.checklistinsider.com/2025-26-flair-hockey"
+  },
+  {
+    "date": "2026-04-15",
     "sport": "other",
     "name": "2026 Upper Deck Allure AEW Wrestling",
     "brand": "Upper Deck",
@@ -208,13 +215,6 @@
     "name": "2026 Upper Deck Allure Golf",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/2026-upper-deck-allure-golf"
-  },
-  {
-    "date": "2026-04-08",
-    "sport": "hockey",
-    "name": "2025-26 Flair Hockey",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2025-26-flair-hockey"
   },
   {
     "date": "2026-04-08",
