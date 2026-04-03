@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-06-24",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Extended Series Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-extended-series-hockey"
+  },
+  {
     "date": "2026-06-10",
     "sport": "basketball",
     "name": "2025-26 Panini Noir Basketball",
@@ -2793,28 +2800,21 @@
     "url": "https://www.checklistinsider.com/2025-bowman-sapphire-baseball"
   },
   {
-    "date": "2025-06-02",
-    "sport": "soccer",
-    "name": "2024-25 Panini Impeccable Premier League Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2024-25-panini-impeccable-premier-league-soccer"
-  },
-  {
-    "date": "2025-06-02",
+    "date": "2025-06-04",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-06-02",
+    "date": "2025-06-04",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-06-02",
+    "date": "2025-06-04",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
