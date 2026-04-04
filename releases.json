@@ -7,6 +7,20 @@
     "url": "https://www.checklistinsider.com/2025-26-upper-deck-extended-series-hockey"
   },
   {
+    "date": "2026-06-24",
+    "sport": "other",
+    "name": "2025-26 Panini National Treasures Road to FIFA World Cup 2026 Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-26-panini-national-treasures-road-to-fifa-world-cup"
+  },
+  {
+    "date": "2026-06-17",
+    "sport": "soccer",
+    "name": "2025-26 Panini Obsidian Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-26-panini-obsidian-soccer"
+  },
+  {
     "date": "2026-06-10",
     "sport": "basketball",
     "name": "2025-26 Panini Noir Basketball",
@@ -16,16 +30,16 @@
   {
     "date": "2026-06-05",
     "sport": "soccer",
-    "name": "2025-26 Panini Obsidian Soccer",
+    "name": "2026 Panini Prizm FIFA World Cup Soccer",
     "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-obsidian-soccer"
+    "url": "https://www.checklistinsider.com/2026-panini-prizm-fifa-world-cup-soccer"
   },
   {
-    "date": "2026-06-03",
+    "date": "2026-05-29",
     "sport": "other",
-    "name": "2025-26 Panini National Treasures Road to FIFA World Cup 2026 Soccer",
+    "name": "2026 Panini Ring Royalty MLW Wrestling",
     "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-national-treasures-road-to-fifa-world-cup"
+    "url": "https://www.checklistinsider.com/2026-panini-ring-royalty"
   },
   {
     "date": "2026-05-27",
@@ -35,11 +49,25 @@
     "url": "https://www.checklistinsider.com/2025-26-panini-signature-series-basketball"
   },
   {
+    "date": "2026-05-27",
+    "sport": "baseball",
+    "name": "2026 Donruss Baseball",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2026-donruss-baseball"
+  },
+  {
     "date": "2026-05-22",
-    "sport": "soccer",
-    "name": "2026 Panini Prizm FIFA World Cup Soccer",
+    "sport": "other",
+    "name": "2025-26 Panini Select Road to FIFA World Cup 2026 Soccer",
     "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2026-panini-prizm-fifa-world-cup-soccer"
+    "url": "https://www.checklistinsider.com/2025-26-panini-select-road-to-fifa-world-cup"
+  },
+  {
+    "date": "2026-05-13",
+    "sport": "other",
+    "name": "2025-26 Panini Noir Road to FIFA World Cup 26 Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-26-panini-noir-road-to-fifa-world-cup"
   },
   {
     "date": "2026-05-13",
@@ -49,11 +77,11 @@
     "url": "https://www.checklistinsider.com/2025-26-donruss-basketball"
   },
   {
-    "date": "2026-05-13",
-    "sport": "other",
-    "name": "2025-26 Panini Select Road to FIFA World Cup 2026 Soccer",
+    "date": "2026-05-08",
+    "sport": "soccer",
+    "name": "2025-26 Panini Prizm FIFA Soccer",
     "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-select-road-to-fifa-world-cup"
+    "url": "https://www.checklistinsider.com/2025-26-panini-prizm-fifa-soccer"
   },
   {
     "date": "2026-05-06",
@@ -63,25 +91,11 @@
     "url": "https://www.checklistinsider.com/2025-26-spx-hockey"
   },
   {
-    "date": "2026-05-06",
-    "sport": "other",
-    "name": "2026 Panini Ring Royalty MLW Wrestling",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2026-panini-ring-royalty"
-  },
-  {
     "date": "2026-05-05",
     "sport": "other",
     "name": "2025-26 Topps Chrome UEFA Club Competitions Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-chrome-uefa"
-  },
-  {
-    "date": "2026-05-01",
-    "sport": "other",
-    "name": "2025-26 Panini Noir Road to FIFA World Cup 26 Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-noir-road-to-fifa-world-cup"
   },
   {
     "date": "2026-05-01",
@@ -96,13 +110,6 @@
     "name": "2025 Panini Select WNBA Basketball",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-select-wnba-basketball"
-  },
-  {
-    "date": "2026-04-29",
-    "sport": "baseball",
-    "name": "2026 Donruss Baseball",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2026-donruss-baseball"
   },
   {
     "date": "2026-04-29",
@@ -141,13 +148,6 @@
   },
   {
     "date": "2026-04-24",
-    "sport": "soccer",
-    "name": "2025-26 Panini Prizm FIFA Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-prizm-fifa-soccer"
-  },
-  {
-    "date": "2026-04-24",
     "sport": "tennis",
     "name": "2026 Topps Graphite Tennis",
     "brand": "Topps",
@@ -169,6 +169,13 @@
   },
   {
     "date": "2026-04-22",
+    "sport": "other",
+    "name": "2025-26 Donruss Road to FIFA World Cup 26 Soccer",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2025-26-donruss-road-to-world-cup"
+  },
+  {
+    "date": "2026-04-22",
     "sport": "racing",
     "name": "2026 Donruss NASCAR Racing",
     "brand": "Donruss",
@@ -180,6 +187,13 @@
     "name": "2025-26 Bowman Basketball",
     "brand": "Bowman",
     "url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+  },
+  {
+    "date": "2026-04-16",
+    "sport": "other",
+    "name": "2025-26 Topps Palatial Manchester United Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-palatial-manchester-united"
   },
   {
     "date": "2026-04-15",
@@ -198,16 +212,16 @@
   {
     "date": "2026-04-15",
     "sport": "other",
-    "name": "2025-26 Donruss Road to FIFA World Cup 26 Soccer",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2025-26-donruss-road-to-world-cup"
-  },
-  {
-    "date": "2026-04-15",
-    "sport": "other",
     "name": "2026 Topps Finest Fantastic Four 65th Anniversary",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/topps-finest-fantastic-four"
+  },
+  {
+    "date": "2026-04-15",
+    "sport": "football",
+    "name": "2025 Topps Chrome Football",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-chrome-football"
   },
   {
     "date": "2026-04-11",
@@ -600,6 +614,13 @@
     "name": "2025 Topps Decades Premier League 1990s Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/topps-decades-premier-league"
+  },
+  {
+    "date": "2026-02-27",
+    "sport": "other",
+    "name": "2026 Upper Deck Space Jam 30th Anniversary",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2026-upper-deck-space-jam-30th-anniversary"
   },
   {
     "date": "2026-02-26",
@@ -2779,42 +2800,21 @@
     "url": "https://www.checklistinsider.com/panini-uconn-basketball"
   },
   {
-    "date": "2025-06-04",
-    "sport": "hockey",
-    "name": "2023-24 Upper Deck The Cup Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2023-24-upper-deck-the-cup-hockey"
-  },
-  {
-    "date": "2025-06-04",
-    "sport": "baseball",
-    "name": "2025 Topps Sterling Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-sterling-baseball"
-  },
-  {
-    "date": "2025-06-04",
-    "sport": "baseball",
-    "name": "2025 Bowman Sapphire Baseball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-bowman-sapphire-baseball"
-  },
-  {
-    "date": "2025-06-04",
+    "date": "2025-06-06",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-06-04",
+    "date": "2025-06-06",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-06-04",
+    "date": "2025-06-06",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
