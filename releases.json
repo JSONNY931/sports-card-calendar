@@ -84,6 +84,13 @@
     "url": "https://www.checklistinsider.com/2025-26-panini-prizm-fifa-soccer"
   },
   {
+    "date": "2026-05-08",
+    "sport": "other",
+    "name": "2026 Topps Chrome UFC",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-chrome-ufc"
+  },
+  {
     "date": "2026-05-06",
     "sport": "hockey",
     "name": "2025-26 SPx Hockey",
@@ -96,13 +103,6 @@
     "name": "2025-26 Topps Chrome UEFA Club Competitions Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-chrome-uefa"
-  },
-  {
-    "date": "2026-05-01",
-    "sport": "basketball",
-    "name": "2025-26 Topps Cosmic Chrome Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-cosmic-chrome-basketball"
   },
   {
     "date": "2026-04-29",
@@ -147,6 +147,13 @@
     "url": "https://www.checklistinsider.com/2026-topps-chrome-black-baseball"
   },
   {
+    "date": "2026-04-29",
+    "sport": "basketball",
+    "name": "2025-26 Topps Cosmic Chrome Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-cosmic-chrome-basketball"
+  },
+  {
     "date": "2026-04-24",
     "sport": "tennis",
     "name": "2026 Topps Graphite Tennis",
@@ -187,6 +194,13 @@
     "name": "2025-26 Bowman Basketball",
     "brand": "Bowman",
     "url": "https://www.checklistinsider.com/2025-26-bowman-basketball"
+  },
+  {
+    "date": "2026-04-17",
+    "sport": "other",
+    "name": "2026 Topps Disney Neon",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-disney-neon"
   },
   {
     "date": "2026-04-16",
@@ -236,13 +250,6 @@
     "name": "2026 Topps Chrome WWE Wrestling",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2026-topps-chrome-wwe-wrestling"
-  },
-  {
-    "date": "2026-04-10",
-    "sport": "other",
-    "name": "2026 Topps Disney Neon",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2026-topps-disney-neon"
   },
   {
     "date": "2026-04-08",
@@ -2791,13 +2798,6 @@
     "name": "2024-25 Panini Select FIFA Soccer",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2024-25-panini-select-fifa-soccer"
-  },
-  {
-    "date": "2025-06-06",
-    "sport": "basketball",
-    "name": "2024-25 Panini UConn Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/panini-uconn-basketball"
   },
   {
     "date": "2025-06-06",
