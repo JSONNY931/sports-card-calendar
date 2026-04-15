@@ -86,9 +86,23 @@
   {
     "date": "2026-05-13",
     "sport": "basketball",
+    "name": "2025 Panini Select WNBA Basketball",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-panini-select-wnba-basketball"
+  },
+  {
+    "date": "2026-05-13",
+    "sport": "basketball",
     "name": "2025-26 Donruss Basketball",
     "brand": "Donruss",
     "url": "https://www.checklistinsider.com/2025-26-donruss-basketball"
+  },
+  {
+    "date": "2026-05-13",
+    "sport": "baseball",
+    "name": "2026 Bowman Baseball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2026-bowman-baseball"
   },
   {
     "date": "2026-05-08",
@@ -134,10 +148,10 @@
   },
   {
     "date": "2026-04-29",
-    "sport": "basketball",
-    "name": "2025 Panini Select WNBA Basketball",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-select-wnba-basketball"
+    "sport": "racing",
+    "name": "2026 Donruss NASCAR Racing",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
   },
   {
     "date": "2026-04-29",
@@ -215,13 +229,6 @@
     "name": "2025-26 Donruss Road to FIFA World Cup 26 Soccer",
     "brand": "Donruss",
     "url": "https://www.checklistinsider.com/2025-26-donruss-road-to-world-cup"
-  },
-  {
-    "date": "2026-04-22",
-    "sport": "racing",
-    "name": "2026 Donruss NASCAR Racing",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
   },
   {
     "date": "2026-04-22",
@@ -2793,28 +2800,21 @@
     "url": "https://www.checklistinsider.com/2025-topps-chrome-marvel"
   },
   {
-    "date": "2025-06-12",
-    "sport": "basketball",
-    "name": "2024-25 Topps Chrome Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-chrome-basketball"
-  },
-  {
-    "date": "2025-06-12",
+    "date": "2025-06-16",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-06-12",
+    "date": "2025-06-16",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-06-12",
+    "date": "2025-06-16",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
