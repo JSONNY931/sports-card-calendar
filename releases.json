@@ -155,13 +155,6 @@
   },
   {
     "date": "2026-04-29",
-    "sport": "hockey",
-    "name": "2025-26 Upper Deck Credentials Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2025-26-upper-deck-credentials-hockey"
-  },
-  {
-    "date": "2026-04-29",
     "sport": "other",
     "name": "2026 Panini FIFA World Cup Sticker Collection Soccer",
     "brand": "Panini",
@@ -201,6 +194,13 @@
     "name": "2026 Donruss NASCAR Racing",
     "brand": "Donruss",
     "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
+  },
+  {
+    "date": "2026-04-29",
+    "sport": "hockey",
+    "name": "2025-26 Upper Deck Credentials Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2025-26-upper-deck-credentials-hockey"
   },
   {
     "date": "2026-04-24",
@@ -299,6 +299,13 @@
     "name": "2025-26 Topps Carnaval UEFA Club Competitions Soccer",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-26-topps-carnaval-uefa"
+  },
+  {
+    "date": "2026-04-13",
+    "sport": "other",
+    "name": "2026 Topps Now WrestleMania Vegas Wrestling",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-now-wrestlemania-vegas"
   },
   {
     "date": "2026-04-11",
@@ -2791,13 +2798,6 @@
     "name": "2024-25 Panini Select Basketball",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2024-25-panini-select-basketball"
-  },
-  {
-    "date": "2025-06-18",
-    "sport": "other",
-    "name": "2025 Upper Deck World of Sports Volume 1",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/upper-deck-world-of-sports"
   },
   {
     "date": "2025-06-18",
