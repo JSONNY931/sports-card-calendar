@@ -77,11 +77,25 @@
     "url": "https://www.checklistinsider.com/2025-26-panini-select-road-to-fifa-world-cup"
   },
   {
+    "date": "2026-05-22",
+    "sport": "other",
+    "name": "2026 Topps Midnight UFC",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-midnight-ufc"
+  },
+  {
     "date": "2026-05-20",
     "sport": "hockey",
     "name": "2025-26 O-Pee-Chee Platinum Hockey",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/2025-26-o-pee-chee-platinum-hockey"
+  },
+  {
+    "date": "2026-05-15",
+    "sport": "football",
+    "name": "2025 Topps Finest Football",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-topps-finest-football"
   },
   {
     "date": "2026-05-14",
@@ -257,6 +271,13 @@
     "name": "2025-26 Panini Eternity Women’s Super League Soccer",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-26-panini-eternity-womens-super-league"
+  },
+  {
+    "date": "2026-04-18",
+    "sport": "other",
+    "name": "2026 Upper Deck DC X NHL Crossover Secret Identity Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2026-upper-deck-dc-x-nhl-crossover-secret-identity"
   },
   {
     "date": "2026-04-17",
@@ -2781,40 +2802,19 @@
   {
     "date": "2025-06-20",
     "sport": "other",
-    "name": "2025 Panini Prizm The Rolling Stones",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-panini-prizm-the-rolling-stones"
-  },
-  {
-    "date": "2025-06-19",
-    "sport": "basketball",
-    "name": "2024-25 Topps G League Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-g-league-basketball"
-  },
-  {
-    "date": "2025-06-18",
-    "sport": "hockey",
-    "name": "2024-25 Parkhurst Champions Hockey",
-    "brand": "Unknown",
-    "url": "https://www.checklistinsider.com/2024-25-parkhurst-champions-hockey"
-  },
-  {
-    "date": "2025-06-18",
-    "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-06-18",
+    "date": "2025-06-20",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-06-18",
+    "date": "2025-06-20",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
