@@ -98,6 +98,13 @@
     "url": "https://www.checklistinsider.com/2025-topps-finest-football"
   },
   {
+    "date": "2026-05-15",
+    "sport": "basketball",
+    "name": "2025-26 Bowman University Best Basketball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-26-bowman-university-best-basketball"
+  },
+  {
     "date": "2026-05-14",
     "sport": "basketball",
     "name": "2025-26 Topps NBA Hoops Basketball",
@@ -218,17 +225,17 @@
   },
   {
     "date": "2026-04-29",
-    "sport": "racing",
-    "name": "2026 Donruss NASCAR Racing",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
-  },
-  {
-    "date": "2026-04-29",
     "sport": "hockey",
     "name": "2025-26 Upper Deck Credentials Hockey",
     "brand": "Upper Deck",
     "url": "https://www.checklistinsider.com/2025-26-upper-deck-credentials-hockey"
+  },
+  {
+    "date": "2026-04-29",
+    "sport": "racing",
+    "name": "2026 Donruss NASCAR Racing",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
   },
   {
     "date": "2026-04-24",
@@ -2791,13 +2798,6 @@
     "name": "2025 Topps Chrome X Cactus Jack Baseball",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-cosmic-chrome-cactus-jack-baseball"
-  },
-  {
-    "date": "2025-06-20",
-    "sport": "racing",
-    "name": "2025 Topps Formula 1 Fanatics Fest NYC Racing",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-topps-formula-1-fanatics-fest-nyc-racing"
   },
   {
     "date": "2025-06-20",
