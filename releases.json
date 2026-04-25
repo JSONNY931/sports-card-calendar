@@ -84,6 +84,13 @@
     "url": "https://www.checklistinsider.com/2026-topps-midnight-ufc"
   },
   {
+    "date": "2026-05-22",
+    "sport": "other",
+    "name": "2025-26 Topps UEFA Japan Edition Soccer",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-uefa-japan-edition"
+  },
+  {
     "date": "2026-05-20",
     "sport": "hockey",
     "name": "2025-26 O-Pee-Chee Platinum Hockey",
@@ -92,17 +99,17 @@
   },
   {
     "date": "2026-05-15",
-    "sport": "basketball",
-    "name": "2025-26 Bowman University Best Basketball",
-    "brand": "Bowman",
-    "url": "https://www.checklistinsider.com/2025-26-bowman-university-best-basketball"
-  },
-  {
-    "date": "2026-05-15",
     "sport": "football",
     "name": "2025 Topps Finest Football",
     "brand": "Topps",
     "url": "https://www.checklistinsider.com/2025-topps-finest-football"
+  },
+  {
+    "date": "2026-05-15",
+    "sport": "basketball",
+    "name": "2025-26 Bowman University Best Basketball",
+    "brand": "Bowman",
+    "url": "https://www.checklistinsider.com/2025-26-bowman-university-best-basketball"
   },
   {
     "date": "2026-05-14",
@@ -197,24 +204,24 @@
   },
   {
     "date": "2026-04-29",
-    "sport": "basketball",
-    "name": "2025-26 Topps Cosmic Chrome Basketball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2025-26-topps-cosmic-chrome-basketball"
-  },
-  {
-    "date": "2026-04-29",
-    "sport": "baseball",
-    "name": "2026 Topps Chrome Black Baseball",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2026-topps-chrome-black-baseball"
-  },
-  {
-    "date": "2026-04-29",
     "sport": "other",
     "name": "2026 Rittenhouse Frasier Premiere Edition",
     "brand": "Rittenhouse",
     "url": "https://www.checklistinsider.com/2026-rittenhouse-frasier-premiere-edition"
+  },
+  {
+    "date": "2026-04-29",
+    "sport": "racing",
+    "name": "2026 Donruss NASCAR Racing",
+    "brand": "Donruss",
+    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
+  },
+  {
+    "date": "2026-04-29",
+    "sport": "soccer",
+    "name": "2025-26 Panini Select Serie A Soccer",
+    "brand": "Panini",
+    "url": "https://www.checklistinsider.com/2025-26-panini-select-serie-a-soccer"
   },
   {
     "date": "2026-04-29",
@@ -232,17 +239,17 @@
   },
   {
     "date": "2026-04-29",
-    "sport": "racing",
-    "name": "2026 Donruss NASCAR Racing",
-    "brand": "Donruss",
-    "url": "https://www.checklistinsider.com/2026-donruss-nascar-racing"
+    "sport": "basketball",
+    "name": "2025-26 Topps Cosmic Chrome Basketball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2025-26-topps-cosmic-chrome-basketball"
   },
   {
     "date": "2026-04-29",
-    "sport": "soccer",
-    "name": "2025-26 Panini Select Serie A Soccer",
-    "brand": "Panini",
-    "url": "https://www.checklistinsider.com/2025-26-panini-select-serie-a-soccer"
+    "sport": "baseball",
+    "name": "2026 Topps Chrome Black Baseball",
+    "brand": "Topps",
+    "url": "https://www.checklistinsider.com/2026-topps-chrome-black-baseball"
   },
   {
     "date": "2026-04-24",
@@ -1779,13 +1786,6 @@
   },
   {
     "date": "2025-10-29",
-    "sport": "hockey",
-    "name": "2024-25 Upper Deck Premier Hockey",
-    "brand": "Upper Deck",
-    "url": "https://www.checklistinsider.com/2024-25-upper-deck-premier-hockey"
-  },
-  {
-    "date": "2025-10-29",
     "sport": "other",
     "name": "2025 Topps Team GB London 2012 Olympics",
     "brand": "Topps",
@@ -1797,6 +1797,13 @@
     "name": "2025 Panini NFL Sticker & Card Collection Football",
     "brand": "Panini",
     "url": "https://www.checklistinsider.com/2025-panini-nfl-sticker-card-collection"
+  },
+  {
+    "date": "2025-10-29",
+    "sport": "hockey",
+    "name": "2024-25 Upper Deck Premier Hockey",
+    "brand": "Upper Deck",
+    "url": "https://www.checklistinsider.com/2024-25-upper-deck-premier-hockey"
   },
   {
     "date": "2025-10-24",
@@ -2793,28 +2800,21 @@
     "url": "https://www.checklistinsider.com/2024-topps-dynasty-baseball"
   },
   {
-    "date": "2025-06-26",
-    "sport": "other",
-    "name": "2024-25 Topps Finest UEFA Club Competitions Soccer",
-    "brand": "Topps",
-    "url": "https://www.checklistinsider.com/2024-25-topps-finest-uefa-club-competitions"
-  },
-  {
-    "date": "2025-06-26",
+    "date": "2025-06-27",
     "sport": "other",
     "name": "Contact",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/contact"
   },
   {
-    "date": "2025-06-26",
+    "date": "2025-06-27",
     "sport": "other",
     "name": "Terms of Use",
     "brand": "Unknown",
     "url": "https://www.checklistinsider.com/terms"
   },
   {
-    "date": "2025-06-26",
+    "date": "2025-06-27",
     "sport": "other",
     "name": "Privacy Policy",
     "brand": "Unknown",
